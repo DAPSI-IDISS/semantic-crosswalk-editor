@@ -1,4 +1,5 @@
 # Semantic Crosswalk Editor
+
 Editor to improve Data Interoperability by bridging Standards using human-centric Semantics.
 
 ## Development Installation
@@ -10,11 +11,11 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
   * [JDK 8+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
   * [Maven](https://maven.apache.org/)
 
-### Steps
-1. Fork and clone this repository
+### Building
 
+1. Fork on GitHub and clone this repository
+1. Fill the Git submodules with content: ```git submodule update --init```
 1. `cd lemminx/`
-
 1. Install the maven dependencies Mac/Linux:
 	```bash
 	$ ./mvnw verify
@@ -22,26 +23,20 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 	or for Windows:
 	```bash
 	$ mvnw.cmd verify
-	```
-
-
 1. `cd vscode-xml/`
-
 1. Install the dependencies:
 	```bash
 	$ npm install
 	```
-
 1. In `vscode-xml/`, build the server by running:
 
 	```bash
 	$ npm run build-server
 	```
-
 1. To run the extension, open the Debugging tab in VSCode.
 1. Select and run 'Launch Extension (vscode-xml)' at the top left:
 
-    ![ Launch Extension ](./images/LaunchExtension.png)
+    ![ Launch Extension ](./vscode-xml/images/LaunchExtension.png)
 
 ## Binary server development
 
@@ -58,7 +53,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
    Alternatively, you can set the `xml.server.binary.path` preference to specify the path of the binary to run.
 
 1. Make sure that you set `xml.server.preferBinary` to `true`,
-disable any [LemMinX extensions](./docs/Extensions.md)
+disable any [LemMinX extensions](./vscode-xml/docs/Extensions.md)
 by commenting out `xml.extension.jars` in your `settings.json`,
 and uninstall or disable any VS Code extensions that provide extra LemMinX features.
 
