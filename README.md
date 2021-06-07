@@ -53,7 +53,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
    Alternatively, you can set the `xml.server.binary.path` preference to specify the path of the binary to run.
 
 1. Make sure that you set `xml.server.preferBinary` to `true`,
-disable any [LemMinX extensions](./vscode-xml/docs/Extensions.md)
+disable any [LemMinX extensions](https://github.com/DAPSI-IDISS/vscode-xml/blob/master/docs/Extensions.md)
 by commenting out `xml.extension.jars` in your `settings.json`,
 and uninstall or disable any VS Code extensions that provide extra LemMinX features.
 
