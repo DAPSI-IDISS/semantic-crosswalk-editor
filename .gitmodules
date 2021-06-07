@@ -1,0 +1,6 @@
+[submodule "lemminx"]
+	path = lemminx
+	url = https://github.com/DAPSI-IDISS/lemminx
+[submodule "vscode-xml"]
+	path = vscode-xml
+	url = https://github.com/DAPSI-IDISS/vscode-xml
