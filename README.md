@@ -41,7 +41,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 1. To run the extension, open the Debugging tab in VSCode.
 1. Select and run 'Launch Extension (vscode-xml)' at the top left:
 
-    ![ Launch Extension ](./vscode-xml/images/LaunchExtension.png)
+    ![ Launch Extension ](./images/LaunchExtension.png)
 
 ## Binary server development
 
@@ -58,7 +58,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
    Alternatively, you can set the `xml.server.binary.path` preference to specify the path of the binary to run.
 
 1. Make sure that you set `xml.server.preferBinary` to `true`,
-disable any [LemMinX extensions](./vscode-xml/docs/Extensions.md)
+disable any [LemMinX extensions](./docs/Extensions.md)
 by commenting out `xml.extension.jars` in your `settings.json`,
 and uninstall or disable any VS Code extensions that provide extra LemMinX features.
 
