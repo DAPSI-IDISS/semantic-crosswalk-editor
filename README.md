@@ -36,7 +36,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 1. To run the extension, open the Debugging tab in VSCode.
 1. Select and run 'Launch Extension (vscode-xml)' at the top left:
 
-    ![ Launch Extension ](./vscode-xml/images/LaunchExtension.png)
+    ![ Launch Extension ](https://github.com/DAPSI-IDISS/vscode-xml/blob/master/images/LaunchExtension.png)
 
 ## Binary server development
 
