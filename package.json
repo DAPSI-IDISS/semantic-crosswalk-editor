@@ -1,0 +1,10 @@
+{
+  "name": "semantic-crosswalk-editor",
+  "displayName": "Semantic Crosswalk Editor",
+  "description": "Editor to improve Data Interoperability by bridging Standards using human-centric Semantics (based on vscode-xml by Red Hat)",
+  "author": "DAPSI-IDISS",
+  "license": "MIT",
+  "scripts": {
+    "watch": "cd vscode-xml && npm run watch"
+  }
+}
