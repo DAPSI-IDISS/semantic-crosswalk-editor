@@ -38,6 +38,10 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 
     ![ Launch Extension ](https://github.com/DAPSI-IDISS/vscode-xml/blob/master/images/LaunchExtension.png)
 
+	- If VSCode complains about the 'Red Hat Commons' extension is not supported in Restricted Mode:
+	Go to File > Preferences > Settings, search for `security.workspace.trust.enabled` and uncheck it.
+	- The `npm: watch` command requires the [TypeScript + Webpack Problem Matchers](https://marketplace.visualstudio.com/items?itemName=eamodio.tsl-problem-matcher) extension to be installed.
+
 ## Binary server development
 
 ### Testing a binary version of LemMinX
