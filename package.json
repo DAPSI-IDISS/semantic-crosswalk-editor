@@ -1,7 +1,7 @@
 {
   "name": "semantic-crosswalk-editor",
   "displayName": "Semantic Crosswalk Editor",
-  "description": "Editor to improve Data Interoperability by bridging Standards using human-centric Semantics (based on vscode-xml by Red Hat)",
+  "description": "Editor to improve Data Interoperability by bridging Standards using human-centric Semantics (based on vscode-xml by Red Hat and lemminx by Eclipse)",
   "author": "DAPSI-IDISS",
   "license": "MIT",
   "scripts": {
