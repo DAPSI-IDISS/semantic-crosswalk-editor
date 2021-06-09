@@ -46,6 +46,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 
 - [Running and Debugging Your Extension](https://vscode.readthedocs.io/en/latest/extensions/debugging-extensions/)
 - [Debugging in Visual Studio Code](https://code.visualstudio.com/docs/editor/debugging)
+- [Diagnosing Terminal Issues](https://github.com/microsoft/vscode/wiki/Terminal-Issues#diagnosing-terminal-issues) - Particularly useful if error notifications or the terminal output not providing enough information (such as `The terminal process terminated with exit code: 1`)
 
 ## Binary server development
 
