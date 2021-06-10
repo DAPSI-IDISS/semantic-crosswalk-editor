@@ -62,7 +62,8 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 	```bash
 	$ vsce package --yarn
 	```
-1. Install the resulting VSIX package `vscode-xml/vscode-xml-0.xx.x.vsix` under VS Code -> Extensions (preferable in a VS Code Insiders instance)
+1. Install the resulting VSIX package `vscode-xml/vscode-xml-0.xx.x.vsix` under VS Code -> Extensions (preferable in a VS Code Insiders instance):
+	![ Install Extension ](./images/install_extension_highlighted.png)
 
 ## Binary Server Testing
 
