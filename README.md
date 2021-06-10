@@ -13,7 +13,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 
 ### Building
 
-1. Fork on GitHub and clone this repository
+1. Clone this repository
 1. Fill the Git submodules with content: ```git submodule update --init```
 1. `cd lemminx/`
 1. Install the maven dependencies Mac/Linux:
@@ -34,9 +34,9 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 	$ npm run build-server
 	```
 1. To run the extension, open the Debugging tab in VSCode.
-1. Select and run 'Launch Extension (vscode-xml)' at the top left:
+1. Select and run 'Launch Extension' at the top left:
 
-    ![ Launch Extension ](https://github.com/DAPSI-IDISS/vscode-xml/blob/master/images/LaunchExtension.png)
+    ![ Launch Extension ](./images/launch_extension.png)
 
 	- If VSCode complains about the 'Red Hat Commons' extension is not supported in Restricted Mode:  
 	Go to **File > Preferences > Settings**, search for `security.workspace.trust.enabled` and uncheck it.
