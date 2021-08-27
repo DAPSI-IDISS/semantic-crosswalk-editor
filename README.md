@@ -28,12 +28,24 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 	```bash
 	$ npm install
 	```
+
+	- If you have a space in your Windows user name (e.g. `'C:\Users\Firstname Lastname'`) and should recieve an error similar to:
+		```
+		Error: EEXIST: file already exists, mkdir 'C:\Users\Firstname'
+		command not found: npm-force-resolutions
+		...
+		```
+		The workaround is to provide a different path without spaces for the npm-cache, e.g. create a `.npmrc` config file in your user directory and define the path there via:
+		```
+		cache=C:\some-directory-without-space\npm-cache
+		```
+
 1. In `vscode-xml/`, build the server by running:
 	```bash
 	$ npm run build-server
 	```
-1. To run the extension, open the Debugging tab in VSCode.
-1. Select and run 'Launch Extension' at the top left:
+1. To run the extension, start VSCode and open the 'Run and Debug' view from its Activity Bar (Ctrl+Shift+D).
+1. Select and run 'Launch Extension' at the top left by hitting the green arrow:
 
 	![ Launch Extension ](./images/launch_extension.png)
 
@@ -46,6 +58,11 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 - [Running and Debugging Your Extension](https://vscode.readthedocs.io/en/latest/extensions/debugging-extensions/)
 - [Debugging in Visual Studio Code](https://code.visualstudio.com/docs/editor/debugging)
 - [Diagnosing Terminal Issues](https://github.com/microsoft/vscode/wiki/Terminal-Issues#diagnosing-terminal-issues) - Particularly useful if error notifications or the terminal output not providing enough information (such as `The terminal process terminated with exit code: 1`)
+
+### Tracing Language Server Communication
+
+1. Turn on `xml.trace.server` in the VSCode preferences
+1. Go to `View -> Output -> XML Support` (drop down menu top right)
 
 ### Building (Production Package)
 
