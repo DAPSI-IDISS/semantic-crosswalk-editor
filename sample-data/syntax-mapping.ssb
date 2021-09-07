@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantics xmlns="https://github.com/svanteschubert/en16931-data-extractor" semantic-nodes="6" syntax-nodes="7" syntax-grammar="someURL/grammar.xsd" syntax-version="D16B" syntax-name="UN/CEFACT Cross Industry Invoice XML">
+	<semantic id="BT-1" level="1" card="1..1" bt="Invoice number" desc="A unique identification of the Invoice." datatype="ID">
+		<xml path="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:ID" type="ELEMENT" card="1..1"/>
+	</semantic>
+	<semantic id="BT-2" level="1" card="1..1" bt="Invoice issue date" desc="The date when the Invoice was issued." datatype="DATE">
+		<xml path="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:IssueDateTime/udt:DateTimeString" type="ELEMENT" card="1..1">@format = ”102”</xml>
+		<xml path="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:IssueDateTime/udt:DateTimeString/@format" type="ATTRIBUTE">Only value “102”</xml>
+	</semantic>
+	<semantic id="BT-3" level="1" card="1..1" bt="Invoice type code" desc="A code specifying the functional type of the Invoice." datatype="CODE">
+		<xml path="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:TypeCode" type="ELEMENT" card="0..1" mismatches="CAR-2"/>
+	</semantic>
+	<semantic id="BT-5" level="1" card="1..1" bt="Invoice currency code" desc="The currency in which all Invoice amounts are given." datatype="CODE">
+		<xml path="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:InvoiceCurrencyCode" type="ELEMENT" card="0..1" mismatches="CAR-2"/>
+	</semantic>
+	<semantic id="BT-6" level="1" card="0..1" bt="VAT accounting currency code" desc="The currency used for VAT accounting" datatype="CODE">
+		<xml path="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:TaxCurrencyCode" type="ELEMENT" card="0..1" mismatches="CAR-2"/>
+	</semantic>
+</semantics>
