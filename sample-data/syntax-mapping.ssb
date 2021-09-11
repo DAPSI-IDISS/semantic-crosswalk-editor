@@ -7,7 +7,7 @@
 		syntax-nodes="7" 
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0 
-							https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0.xsd">>
+							https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0.xsd">
 	<semantic id="BT-1" level="1" card="1..1" bt="Invoice number" desc="A unique identification of the Invoice." datatype="ID">
 		<xml path="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:ID" type="ELEMENT" card="1..1"/>
 	</semantic>
