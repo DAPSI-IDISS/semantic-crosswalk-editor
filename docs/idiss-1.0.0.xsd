@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:i="https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://dapsi-idiss.github.io/semantic-crosswalk-editor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:i="https://dapsi-idiss.github.io/semantic-crosswalk-editor">
   <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0.xsd" />
   <xs:element name="semantics">
     <xs:complexType mixed="true">
