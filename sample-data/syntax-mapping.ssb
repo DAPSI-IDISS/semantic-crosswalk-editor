@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<semantics xmlns="https://dapsi-idiss.github.io/semantic-crosswalk-editor" xsi:schemaLocation="https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0 https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<semantics xmlns="https://dapsi-idiss.github.io/semantic-crosswalk-editor" xsi:schemaLocation="https://dapsi-idiss.github.io/semantic-crosswalk-editor ./semantic-crosswalk-editor/docs/idiss-1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		semantic-name="Semantic data model of the core elements of an electronic invoice"
 		semantic-version="EN16931-1:2017+A1:2019+AC:2020"
 		semantic-grammar="https://www.beuth.de/de/norm/din-en-16931-1/327729047"
