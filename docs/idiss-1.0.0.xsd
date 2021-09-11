@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://dapsi-idiss.github.io/semantic-crosswalk-editor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:i="https://dapsi-idiss.github.io/semantic-crosswalk-editor">
-  <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0.xsd" />
   <xs:element name="semantics">
+    <xs:annotation>
+      <xs:documentation source="version">0.1.1+</xs:documentation>
+      <xs:documentation source="description">Grouping a syntax binding between a semantic and a compatible syntax.</xs:documentation>
+    </xs:annotation>
     <xs:complexType mixed="true">
       <xs:sequence>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="i:semantic" />
       </xs:sequence>
+      <xs:attribute name="semantic-name" use="required" />
+      <xs:attribute name="semantic-version" use="required" />
+      <xs:attribute name="semantic-grammar" use="required" />
       <xs:attribute name="semantic-nodes" use="optional" type="xs:integer" />
-      <xs:attribute name="syntax-grammar" use="required" />
       <xs:attribute name="syntax-name" use="required" />
+      <xs:attribute name="syntax-version" use="required" />
+      <xs:attribute name="syntax-grammar" use="required" />
       <xs:attribute name="syntax-nodes" use="optional" type="xs:integer" />
-      <xs:attribute name="syntax-version" use="required" type="xs:NCName" />
     </xs:complexType>
   </xs:element>
   <xs:element name="semantic">
