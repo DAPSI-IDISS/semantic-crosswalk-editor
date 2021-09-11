@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<semantics xmlns="https://dapsi-idiss.github.io/semantic-crosswalk-editor" 
-		syntax-grammar="https://unece.org/DAM/cefact/xml_schemas/D16B_SCRDM__Subset__CII.zip" 
-		syntax-version="D16B" 
+<semantics xmlns="https://dapsi-idiss.github.io/semantic-crosswalk-editor" xsi:schemaLocation="https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0 https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		semantic-name="Semantic data model of the core elements of an electronic invoice"
+		semantic-version="EN16931-1:2017+A1:2019+AC:2020"
+		semantic-grammar="https://www.beuth.de/de/norm/din-en-16931-1/327729047"
+		semantic-nodes="6"
 		syntax-name="UN/CEFACT Cross Industry Invoice XML"
-		semantic-nodes="6" 
-		syntax-nodes="7" 
-		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0 
-							https://dapsi-idiss.github.io/semantic-crosswalk-editor/idiss-1.0.0.xsd">
+		syntax-version="D16B"
+		syntax-grammar="https://unece.org/DAM/cefact/xml_schemas/D16B_SCRDM__Subset__CII.zip"
+		syntax-nodes="7">
 	<semantic id="BT-1" level="1" card="1..1" bt="Invoice number" desc="A unique identification of the Invoice." datatype="ID">
 		<xml path="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:ID" type="ELEMENT" card="1..1"/>
 	</semantic>
