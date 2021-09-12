@@ -1,105 +1,39 @@
-# Semantic Crosswalk Editor
+# Semantic-Crosswalk-Editor
 
-Editor to improve Data Interoperability by bridging Standards using human-centric Semantics.
+## Overview
 
-## Development Installation
+The purpose of this project is to enhance the data portability of standards.
+Although in the end for any structured data we start with XML as syntax.
 
-### Installation Prerequisites:
+Our first milestone objective is to provide within half a year a Minimum Viable Product (MVP) to interested parties.
 
-  * latest [Visual Studio Code](https://code.visualstudio.com/)
-  * [Node.js](https://nodejs.org/) v4.0.0 or higher
-  * [JDK 8+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-  * [Maven](https://maven.apache.org/)
+For demonstration, we have chosen the real-world scenario maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931) scenario.
 
-### Building (Develop with Watcher)
+With our MVP we want to show how domain experts are able to easily align their semantics - here given by the CEN technical committee 434 (EN16931-1) - with the related given syntax, in our showcase the e-procurement XML syntax Cross Industry Invoice (CII) defined by the UN/CEFACT.
 
-1. Clone this repository
-1. Fill the Git submodules with content: ```git submodule update --init```
-1. `cd lemminx/`
-1. Install the maven dependencies Mac/Linux:
-	```bash
-	$ ./mvnw verify
-	```
-	or for Windows:
-	```bash
-	$ mvnw.cmd verify
-1. `cd vscode-xml/`
-1. Install the dependencies:
-	```bash
-	$ npm install
-	```
+## High level Concept
 
-	- If you have a space in your Windows user name (e.g. `'C:\Users\Firstname Lastname'`) and should recieve an error similar to:
-		```
-		Error: EEXIST: file already exists, mkdir 'C:\Users\Firstname'
-		command not found: npm-force-resolutions
-		...
-		```
-		The workaround is to provide a different path without spaces for the npm-cache, e.g. create a `.npmrc` config file in your user directory and define the path there via:
-		```
-		cache=C:\some-directory-without-space\npm-cache
-		```
+* [Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants](docs/Foss.md).
+* [Basics on the European e-Invoice Specification (EN16931)](EN16931.md).
 
-1. In `vscode-xml/`, build the server by running:
-	```bash
-	$ npm run build-server
-	```
-1. To run the extension, start VSCode and open the 'Run and Debug' view from its Activity Bar (Ctrl+Shift+D).
-1. Select and run 'Launch Extension' at the top left by hitting the green arrow:
+## User Documentation
 
-	![ Launch Extension ](./docs/images/launch_extension.png)
+* [Getting Started](docs/GettingStarted.md):
+  * Use-case: after installing the extension, in an empty workspace, what to do next to start working with the Syntax Bindings (without assuming someone explained it already)?
+* [Features](docs/Features.md):
+  * List and show key features of our extension (without getting to much into detail)
+  * (Additionally, roughly what vscode and vscode-xml offers for our use-cases)
+* [Optimizing Workspace](docs/OptimizingWorkspace.md):
+  * Setting up the workspace to improve workflow, customizing vscode settings for our use-case, etc. (in a simple way)
+* [Advanced Use-Cases](docs/AdvancedUseCases.md):
+  * Specials our extension offers (advanced settings, get in detail)
+  * Efficiently use the extension in conjunction with other VSCode customizations, extensions, custom snippets, etc., etc.
+  * (Additionally, what else can be done with vscode and vscode-xml)
 
-	- If VSCode complains about the 'Red Hat Commons' extension is not supported in Restricted Mode:
-	Go to **File > Preferences > Settings**, search for `security.workspace.trust.enabled` and uncheck it.
-	- The `npm: watch` command requires the [TypeScript + Webpack Problem Matchers](https://marketplace.visualstudio.com/items?itemName=eamodio.tsl-problem-matcher) extension to be installed.
+## Developer Documentation
 
-### Debugging Guides
-
-- [Running and Debugging Your Extension](https://vscode.readthedocs.io/en/latest/extensions/debugging-extensions/)
-- [Debugging in Visual Studio Code](https://code.visualstudio.com/docs/editor/debugging)
-- [Diagnosing Terminal Issues](https://github.com/microsoft/vscode/wiki/Terminal-Issues#diagnosing-terminal-issues) - Particularly useful if error notifications or the terminal output not providing enough information (such as `The terminal process terminated with exit code: 1`)
-
-### Tracing Language Server Communication
-
-1. Turn on `xml.trace.server` in the VSCode preferences
-1. Go to `View -> Output -> XML Support` (drop down menu top right)
-
-### Building (Production Package)
-
-1. Install VSCE ([The Visual Studio Code Extension Manager](https://github.com/microsoft/vscode-vsce#vsce)):
-	```bash
-	$ npm install -g vsce
-	```
-1. Follow the steps 1-7 from [Building (Develop with Watcher)](#building-develop-with-watcher)
-1. In `vscode-xml/`, build the package by running:
-	```bash
-	$ vsce package
-	```
-	- If you receive a `Command failed: npm list --production --parseable --depth=99999 --loglevel=error` followed by many `npm ERR! missing` ([due to an issue with npm 7+](https://github.com/microsoft/vscode-vsce/issues/439#issue-597647066)), the workaround is:
-	```bash
-	$ vsce package --yarn
-	```
-1. Install the resulting VSIX package `vscode-xml/semantic-crosswalk-editor-0.xx.x.vsix` under VS Code -> Extensions (preferable in a VS Code Insiders instance):
-
-	![ Install Extension ](./docs/images/install_extension_highlighted.png)
-
-## Binary Server Testing
-
-### Testing a binary version of LemMinX
-
-1. Copy the binary version of LemMinX to:
-
-   | OS | Location (relative to root of repository) |
-   | --- | --- |
-   | Linux | `./vscode-xml/server/lemminx-linux` |
-   | macOS | `./vscode-xml/server/lemminx-darwin-x86_64` |
-   | Windows | `.\vscode-xml\server\lemminx-win32.exe` |
-
-   Alternatively, you can set the `xml.server.binary.path` preference to specify the path of the binary to run.
-
-1. Make sure that you set `xml.server.preferBinary` to `true`,
-disable any [LemMinX extensions](https://github.com/DAPSI-IDISS/vscode-xml/blob/master/docs/Extensions.md)
-by commenting out `xml.extension.jars` in your `settings.json`,
-and uninstall or disable any VS Code extensions that provide extra LemMinX features.
-
-1. Launch vscode-xml in development mode, and double check that the binary server is running by checking the server logging (Output > XML Support)
+* [Semantic-Crosswalk-Editor Development](docs/Development.md): How to build and contribute to this extension
+* [XML Features](docs/https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs):
+  Everything about the underneath vscode-xml extension
+* [XML Extensions](docs/https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs/Extensions.md#extensions):
+  How to extend vscode-xml settings and XML features (completion, validation, hover, etc)?
