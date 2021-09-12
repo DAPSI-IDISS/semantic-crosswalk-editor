@@ -47,7 +47,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 1. To run the extension, start VSCode and open the 'Run and Debug' view from its Activity Bar (Ctrl+Shift+D).
 1. Select and run 'Launch Extension' at the top left by hitting the green arrow:
 
-	![ Launch Extension ](./docs/images/launch_extension.png)
+	![ Launch Extension ](./images/launch_extension.png)
 
 	- If VSCode complains about the 'Red Hat Commons' extension is not supported in Restricted Mode:
 	Go to **File > Preferences > Settings**, search for `security.workspace.trust.enabled` and uncheck it.
@@ -81,7 +81,7 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 	```
 1. Install the resulting VSIX package `vscode-xml/semantic-crosswalk-editor-0.xx.x.vsix` under VS Code -> Extensions (preferable in a VS Code Insiders instance):
 
-	![ Install Extension ](./docs/images/install_extension_highlighted.png)
+	![ Install Extension ](./images/install_extension_highlighted.png)
 
 ## Binary Server Testing
 

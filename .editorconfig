@@ -13,3 +13,4 @@ insert_final_newline = false
 # prevent breaking lists by space indents
 [*.md]
 indent_style = tab
+trim_trailing_whitespace = false
