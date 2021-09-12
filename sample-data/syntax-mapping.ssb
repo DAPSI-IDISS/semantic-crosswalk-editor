@@ -7,7 +7,8 @@
 		syntax-name="UN/CEFACT Cross Industry Invoice XML"
 		syntax-version="D16B"
 		syntax-grammar="https://unece.org/DAM/cefact/xml_schemas/D16B_SCRDM__Subset__CII.zip"
-		syntax-nodes="7">
+		syntax-nodes="7"
+>
 	<semantic id="BT-1" level="1" card="1..1" bt="Invoice number" desc="A unique identification of the Invoice." datatype="ID">
 		<xml path="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:ID" type="ELEMENT" card="1..1"/>
 	</semantic>
