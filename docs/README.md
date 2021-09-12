@@ -2,12 +2,12 @@
 
 ## Overview
 
-The purpose of this project is to enhance the data portability of standards.
+The **purpose** of this project is to enhance the data portability of standards.
 Although in the end for any structured data we start with XML as syntax.
 
-Our first milestone objective is to provide within half a year a Minimum Viable Product (MVP) to interested parties.
+Our **first milestone objective** is to provide within half a year a Minimum Viable Product (MVP) to interested parties.
 
-For demonstration, we have chosen the real-world scenario maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931) scenario.
+For the beginning, we have chosen the real-world scenario maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931) scenario.
 
 ![EU Syntax Binding](images/EN16931-SyntaxBinding.png)
 
