@@ -9,12 +9,14 @@ Our first milestone objective is to provide within half a year a Minimum Viable 
 
 For demonstration, we have chosen the real-world scenario maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931) scenario.
 
+![EU Syntax Binding](docs/images/EN16931-SyntaxBinding.png)
+
 With our MVP we want to show how domain experts are able to easily align their semantics - here given by the CEN technical committee 434 (EN16931-1) - with the related given syntax, in our showcase the e-procurement XML syntax Cross Industry Invoice (CII) defined by the UN/CEFACT.
 
 ## High level Concept
 
 * [Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants](docs/Foss.md).
-* [Basics on the European e-Invoice Specification (EN16931)](EN16931.md).
+* [Basics on the European e-Invoice Specification (EN16931)](docs/EN16931.md).
 
 ## User Documentation
 
