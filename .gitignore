@@ -24,3 +24,6 @@ hs_err_pid*
 
 # DAPSI internal test files
 sample-data/internal/
+
+# ScreenToGif projects
+*.stg
