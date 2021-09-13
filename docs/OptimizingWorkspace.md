@@ -25,3 +25,7 @@ Drag the lines between the Views for a better overview in the Side Panel dependi
 Views can be also completely collapsed/expanded by clicking on the arrow icons (`v` or `>` before the LABEL) or directly on the LABEL (e.g. on "XML VIEW"):
 
 ![ Collapse View ](./images/collapse_view.png)
+
+## Read Next
+
+* [Features](Features.md)
