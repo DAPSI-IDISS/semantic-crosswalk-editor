@@ -3,13 +3,13 @@
 ## Installation
 
 1. Download and install [Microsoft Visual Studio Code](https://code.visualstudio.com/) (hereinafter referred to as VS Code)
-1. Download the latest release of the [Semantic-Crosswalk-Editor Extension](https://github.com/DAPSI-IDISS/semantic-crosswalk-editor/releases/tag/v0.18.1) and extract the zip/tar file
+1. Download the latest release of the [Semantic-Crosswalk-Editor Extension](https://github.com/DAPSI-IDISS/semantic-crosswalk-editor/releases/tag/v0.18.1) (Assets ➜ VSIX file)
 1. Launch VS Code  
 1. Go to Extensions in the Activity Bar (`Ctrl+Shift+X`)  
 ![ Welcome ](./images/welcome.png)
 1. Select the **[...]** menu at the top and **Install from VSIX...**  
 ![ Install Extension ](./images/install_extension_user.png)
-1. In the **Install from VSIX** open file dialog, select the previously extracted Semantic-Crosswalk-Editor VSIX file from Step 2 (e.g. `semantic-crosswalk-editor-0.18.1.vsix`)  
+1. In the **Install from VSIX** open file dialog, select the previously downloaded Semantic-Crosswalk-Editor VSIX file from Step 2 (e.g. `semantic-crosswalk-editor-0.18.1.vsix`)  
 ![ Extension Installed ](./images/extension_installed.png)  
 (A new menu will appear in the Activity Bar indicating that the extension was installed succesfully)
 1. Select the Semantic Crosswalk Explorer menu and open a XML, XSD or SSB file to activate the extension features (See [Open the Syntax-Mapping Sample File](#open-the-syntax-mapping-sample-file) next)  
