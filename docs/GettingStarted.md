@@ -31,16 +31,32 @@ The default VS Code workspace with the extension enabled and the sample file ope
 
 The following screen describes the different sections of the UI and the related terms (conventional VS Code terms) used across this documentation.
 
-![ VSCode UI Overview ](./images/vscode_ui_overview.png)  
-!TODO: Replace with own image
+![ VSCode UI Overview ](./images/vscode_ui_new_overview.png)  
 
-### Semantic-Crosswalk-Editor Sections
+VS Code comes with a simple and intuitive layout that maximizes the space provided for the editor while leaving ample room to browse and access the full context of your folder or project. The UI is divided into five areas:
 
-!TODO: Image describing our sections
+* **(1) Activity Bar** - Located on the far left-hand side, this lets you switch between views and gives you additional context-specific indicators, like the number of outgoing changes when Git is enabled.  
+* **(2) Side Bar** - Contains different views like the Explorer to assist you while working on your project.  
+* **(3) Editor Groups** - The main area to edit your files. You can open as many editors as you like side by side vertically and horizontally.  
+* **(4) Panel** - You can display different panels below the editor region for output or debug information, errors and warnings, or an integrated terminal. Panel can also be moved to the right for more vertical space.  
+* **(5) Status Bar** - Information about the opened project and the files you edit.  
+
+Each time you start VS Code, it opens up in the same state it was in when you last closed it. The folder, layout, and opened files are preserved.  
+Open files in each editor are displayed with tabbed headers (Tabs) at the top of the editor region.
+
+## Semantic-Crosswalk-Editor Sections
+
+These sections and their associated terms are specific to the Semantic Crosswalk Editor extension and used as conventions in this documentation.
+
+![ Extension Sections ](./images/semantic-crosswalk-editor_sections.png)  
 
 ## Additional Information
 
-!TODO: VSCode docu "Getting Started" links
+More information concerning the general UI features of VS Code and introductory guides:
+
+* [Intro Videos](https://code.visualstudio.com/docs/getstarted/introvideos)
+* [Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+* [User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)
 
 ## Read Next
 
