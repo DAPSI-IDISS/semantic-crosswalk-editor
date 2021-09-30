@@ -91,7 +91,7 @@ We have extended the Code Outline View to provide a sortable list of the target 
 
 ### Follow Cursor
 
-The cursor and selection follows in both directions when selecting a line in the Outline View or the Code Editor.
+Enable 'Follow Cursor' via the Outline settings (`...` next to the 'Outline' Label). The cursor and selection follows in both directions when selecting a line in the Outline View or the Code Editor.
 
 ![ Outline Follow Cursor ](./images/outline_follow_cursor.png)  
 
