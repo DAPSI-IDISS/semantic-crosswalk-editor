@@ -4,10 +4,6 @@
 
 ![Software Design](images/architecture_design.jpeg)
 
-## Why LSP?
-
-![LSP Advantage](images/why_lsp.jpeg)
-
 ## Summary
 
 To be able to create such a helpful application within 9 months we did not reinvent the wheel, but instead stood upon the shoulders of the following giants:
