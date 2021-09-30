@@ -87,13 +87,25 @@ Global counters of the currently used nodes are synced across the UI:
 
 ## Outline View
 
-!TODO
+We have extended the Code Outline View to provide a sortable list of the target paths of XML nodes in the currently opened Syntax Mapping file. Additonally showing the Line and Column numbers next to each outline element.
 
 ### Follow Cursor
 
+The cursor and selection follows in both directions when selecting a line in the Outline View or the Code Editor.
+
+![ Outline Follow Cursor ](./images/outline_follow_cursor.png)  
+
 ### Breadcrumb Menu
 
+The Breadcrumb Menu allows quick access to the same List of the Outline View. Selections from the Breadcrumb also apply to the Outline View and the Code Editor.
+
+![ Outline Breadcrumb Menu ](./images/outline_breadcrumb_menu.png)  
+
 ### Sorting
+
+The Outline View also offers the option to sort the list by name or category while keeping the cursor follow intact.
+
+![ Outline Sorting ](./images/outline_sorting.png)  
 
 ## Code Editor
 
