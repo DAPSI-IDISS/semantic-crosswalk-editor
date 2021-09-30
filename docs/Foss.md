@@ -1,5 +1,15 @@
 # Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants
 
+## Software Design and Architecture
+
+![Software Design](images/architecture_design.jpeg)
+
+## Why LSP?
+
+![LSP Advantage](images/why_lsp.jpeg)
+
+## Summary
+
 To be able to create such a helpful application within 9 months we did not reinvent the wheel, but instead stood upon the shoulders of the following giants:
 
 1. We decided to embrace [Microsoft's open-source editor Visual Studio Code (VSCode)](https://code.visualstudio.com/) and its innovative open editor architecture based on its [Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/). With LSP it is possible to capsulate domain-specific business logic in a server part and to be able to share and reuse it by other editors, who split their specific needs in the client part. For instance, the HTML/CSS functionality from VSCode is now shared by [Eclipse IDE](https://projects.eclipse.org/projects/tools.wildwebdeveloper), eta.  The LSP vision is that in the future language providers may provide their own server extensions as part of their standard.
