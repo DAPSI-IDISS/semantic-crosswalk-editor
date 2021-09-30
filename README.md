@@ -20,22 +20,20 @@ With our MVP we want to show how domain experts are able to easily align their s
 
 ## User Documentation
 
-* [Getting Started](docs/GettingStarted.md):
-  * Use-case: after installing the extension, in an empty workspace, what to do next to start working with the Syntax Bindings (without assuming someone explained it already)?
-* [Features](docs/Features.md):
-  * List and show key features of our extension (without getting to much into detail)
-  * (Additionally, roughly what vscode and vscode-xml offers for our use-cases)
-* [Optimizing Workspace](docs/OptimizingWorkspace.md):
-  * Setting up the workspace to improve workflow, customizing vscode settings for our use-case, etc. (in a simple way)
-* [Advanced Use-Cases](docs/AdvancedUseCases.md):
+* [Getting Started](docs/GettingStarted.md): How to install the Semantic Crosswalk Editor and get started with Syntax Bindings.
+* [Optimizing Workspace](docs/OptimizingWorkspace.md): Setting up the workspace to improve workflow with the SCE extension.
+* [SCE Features](docs/Features.md): Comprehensive list of the Semantic Crosswalk Editor key features (with animations to show them in action).
+* [XML Features](https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs):
+  Everything about the underneath XML extension (validation, preferences, formatting, etc).
+<!-- 
+* [Advanced Use-Cases](docs/AdvancedUseCases.md): !TODO
   * Specials our extension offers (advanced settings, get in detail)
-  * Efficiently use the extension in conjunction with other VSCode customizations, extensions, custom snippets, etc., etc.
+  * Efficiently use the extension in conjunction with other VSCode customizations, extensions, custom snippets, etc.
   * (Additionally, what else can be done with vscode and vscode-xml)
+-->
 
 ## Developer Documentation
 
-* [Semantic-Crosswalk-Editor Development](docs/Development.md): How to build and contribute to this extension
-* [XML Features](docs/https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs):
-  Everything about the underneath vscode-xml extension
-* [XML Extensions](docs/https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs/Extensions.md#extensions):
-  How to extend vscode-xml settings and XML features (completion, validation, hover, etc)?
+* [SCE Development](docs/Development.md): How to build and contribute to the Semantic Crosswalk Editor extension.
+* [XML Extensions](https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs/Extensions.md#extensions):
+  How to extend VSCode XML and LemMinX features (completion, validation, hover, etc).
