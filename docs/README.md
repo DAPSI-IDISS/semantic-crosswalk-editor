@@ -25,12 +25,6 @@ With our MVP we want to show how domain experts are able to easily align their s
 * [SCE Features](Features.md): Comprehensive list of the Semantic Crosswalk Editor key features (with animations to show them in action).
 * [XML Features](https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs):
   Everything about the underneath XML extension (validation, preferences, formatting, etc).
-<!-- 
-* [Advanced Use-Cases](AdvancedUseCases.md): !TODO
-  * Specials our extension offers (advanced settings, get in detail)
-  * Efficiently use the extension in conjunction with other VSCode customizations, extensions, custom snippets, etc.
-  * (Additionally, what else can be done with vscode and vscode-xml)
--->
 
 ## Developer Documentation
 
