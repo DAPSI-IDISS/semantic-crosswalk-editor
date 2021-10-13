@@ -36,10 +36,10 @@ With our MVP we want to show how domain experts are able to easily align their s
 ## Supported by
 
 <div style="vertical-align: middle;">
-	<img alt="Image European Commision" src="https://dapsi.ngi.eu/wp-content/uploads/2020/01/NGI_DAPSI_Tag-color-positive-large.png" width="225" height="75" align="left">
+	<img alt="Image  DAPSI - Data Portability & Services Incubator" src="https://dapsi.ngi.eu/wp-content/uploads/2020/01/NGI_DAPSI_Tag-color-positive-large.png" width="225" height="75" align="left">
 </div>
 <div style="vertical-align: middle;">
-<b>DAPSI program</b> - https://dapsi.ngi.eu/ </br>
+<b>Data Portability & Services Incubator (DAPSI) program</b> - https://dapsi.ngi.eu/ </br>
 <b>EU Grant Agreement No.: 871498</b> - https://cordis.europa.eu/project/id/871498 </br>
 <b>Call: H2020-ICT-2018-2020</b>
 </div>
