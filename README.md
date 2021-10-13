@@ -36,7 +36,7 @@ With our MVP we want to show how domain experts are able to easily align their s
 ## Supported by
 
 <div style="vertical-align: middle;">
-	<img alt="Image European Commision" src="https://upload.wikimedia.org/wikipedia/commons/8/84/European_Commission.svg" width="150" height="100" align="left">
+	<img alt="Image European Commision" src="https://dapsi.ngi.eu/wp-content/uploads/2020/01/NGI_DAPSI_Tag-color-positive-large.png" width="150" height="100" align="left">
 </div>
 <div style="vertical-align: middle;">
 <b>DAPSI program</b> - https://dapsi.ngi.eu/ </br>
