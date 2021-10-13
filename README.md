@@ -33,7 +33,7 @@ With our MVP we want to show how domain experts are able to easily align their s
   How to extend VSCode XML and LemMinX features (completion, validation, hover, etc).
 	
 	
-## Supported by
+## Sponsorship
 
 <div style="vertical-align: middle;">
 	<img alt="Image European Commision" src="https://dapsi.ngi.eu/wp-content/uploads/2020/01/NGI_DAPSI_Tag-color-positive-large.png" width="225" height="75" align="left">
