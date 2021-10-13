@@ -39,7 +39,7 @@ With our MVP we want to show how domain experts are able to easily align their s
 	<img alt="Image European Commision" src="https://upload.wikimedia.org/wikipedia/commons/8/84/European_Commission.svg" width="150" height="100" align="left">
 </div>
 <div style="vertical-align: middle;">Our <b>iDISS project</b> is part of </br>
-<b>DAPSI programm</b> - https://dapsi.ngi.eu/ </br>
+<b>DAPSI program</b> - https://dapsi.ngi.eu/ </br>
 <b>EU Grant Agreement No.: 871498</b> - https://cordis.europa.eu/project/id/871498 </br>
 <b>Call: H2020-ICT-2018-2020</b>
 </div>
