@@ -33,6 +33,21 @@ With our MVP we want to show how domain experts are able to easily align their s
   How to extend VSCode XML and LemMinX features (completion, validation, hover, etc).
 	
 	
+## Endorsements
+
+### [Paul Simons](https://www.linkedin.com/in/paulsimonscb/), Convenor TC434 WG1. Semantic data model
+
+This work is important for the further development and standardisation of e-invoicing in general and more specific to the EN16931 developed by the CEN/TC434 Workgroup.
+It will 
+-	Enhance interoperability between the different ERP/Accounting software solutions in the market to the benefit of end-users
+-	Increase the accuracy of calculations
+-	Guarantee calculation results independent of the development tools and environment
+-	Resolve rounding issues in a transparent and predictable way
+
+### [Fred van Blommestein](https://www.linkedin.com/in/fred-van-blommestein-7871b43/), editor of EN16931-1 and convenor of CEN/TC434 WG3 (Syntax binding)
+
+TC434 has limited resources, especially with regard to the very technical work of syntax binding of semantic standards, which needs highly specialized expertise. Two projects within TC434 soon will need this effort: the amendment of EN16931-1 (the semantic standard for an electronic invoice) and the semantic standard for an electronic receipt. The tooling that is developed in this solution is indispensable for this work.  	
+
 ## Supported by
 
 <div style="vertical-align: middle;">
@@ -43,4 +58,3 @@ With our MVP we want to show how domain experts are able to easily align their s
 <b>EU Grant Agreement No.: 871498</b> - https://cordis.europa.eu/project/id/871498 </br>
 <b>Call: H2020-ICT-2018-2020</b>
 </div>
-	
