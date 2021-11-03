@@ -27,3 +27,12 @@ sample-data/internal/
 
 # ScreenToGif projects
 *.stg
+
+# Extension specific
+**/out
+*.vsix
+node_modules/
+dist/
+.idea/
+.vscode-test/
+.DS_Store
