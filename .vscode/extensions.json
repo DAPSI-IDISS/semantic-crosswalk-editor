@@ -5,7 +5,6 @@
     // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
     "eg2.tslint",
     "EditorConfig.EditorConfig",
-    "eamodio.tsl-problem-matcher",
-    "redhat.vscode-xml"
+    "eamodio.tsl-problem-matcher"
   ]
 }
