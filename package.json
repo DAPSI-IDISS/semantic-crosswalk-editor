@@ -1,10 +1,234 @@
 {
   "name": "semantic-crosswalk-editor",
   "displayName": "Semantic Crosswalk Editor",
-  "description": "Editor to improve Data Interoperability by bridging Standards using human-centric Semantics (based on vscode-xml by Red Hat and lemminx by Eclipse)",
+  "description": "Editor to improve Data Interoperability by bridging Standards using human-centric Semantics (build on top of vscode-xml by Red Hat and lemminx by Eclipse)",
+  "version": "0.18.1",
   "author": "DAPSI-IDISS",
+  "publisher": "DAPSI-IDISS",
+  "icon": "icons/idiss-icon128.png",
   "license": "MIT",
+  "bugs": "https://github.com/DAPSI-IDISS/semantic-crosswalk-editor/issues",
+  "preview": true,
+  "keywords": [
+    "xml",
+    "xsl",
+    "xsd",
+    "dtd"
+  ],
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": "limited"
+    }
+  },
+  "activationEvents": [
+    "onView:experimentalView",
+    "onLanguage:xml",
+    "onLanguage:xsl"
+  ],
+  "main": "./dist/extension",
   "scripts": {
-    "watch": "cd vscode-xml && npm run watch"
+    "vscode:prepublish": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "test-compile": "tsc -p ./",
+    "pretest": "npm run test-compile",
+    "test": "node ./out/test/runTest.js",
+    "tslint": "./node_modules/.bin/tslint -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DAPSI-IDISS/semantic-crosswalk-editor"
+  },
+  "categories": [
+    "Programming Languages",
+    "Linters",
+    "Formatters",
+    "Snippets"
+  ],
+  "devDependencies": {
+    "@types/vscode": "^1.37.0",
+    "ts-loader": "^6.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.4.1",
+    "typescript-tslint-plugin": "^0.3.1",
+    "vscode-test": "^1.2.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "jsonc-parser": "^3.0.0",
+    "vscode-languageclient": "^7.0.0"
+  },
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "IDISS",
+      "properties": {
+        "idiss.useReducedTestData": {
+          "type": "boolean",
+          "default": false,
+          "markdownDescription": "Use small test datasets for semanticView & xmlView (Useful for a bit faster extension init during testing/development)."
+        },
+        "idiss.expandTreeViewsOnInit": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "Default 'collapsibleState' for the semanticView & xmlView TreeItems. Note: The nested TreeItems are not indexed (searchable) before expanding their parent nodes."
+        }
+      }
+    },
+    "configurationDefaults": {
+      "[xml]": {
+        "editor.linkedEditing": true
+      },
+      "[xsl]": {
+        "editor.linkedEditing": true
+      }
+    },
+    "commands": [
+      {
+        "command": "semanticView.reveal",
+        "title": "Semantic View: Reveal"
+      },
+      {
+        "command": "semanticView.changeTitle",
+        "title": "Semantic View: Change Title",
+        "args": "title"
+      },
+      {
+        "command": "semanticView.searchEntry",
+        "title": "Semantic View: Search Entry in a new Window",
+        "icon": "$(search)"
+      },
+      {
+        "command": "semanticView.searchEntryInline",
+        "title": "Semantic View: Search Entry",
+        "icon": "$(list-selection)"
+      },
+      {
+        "command": "semanticView.addEntry",
+        "title": "Semantic View: Add Entry",
+        "icon": "$(add)",
+        "enablement": "viewItem =~ /^([semantics]+?)\/[0-9]/ && viewItem in unusedSemantics"
+      },
+      {
+        "command": "xmlView.reveal",
+        "title": "XML View: Reveal"
+      },
+      {
+        "command": "xmlView.changeTitle",
+        "title": "XML View: Change Title",
+        "args": "title"
+      },
+      {
+        "command": "xmlView.searchEntry",
+        "title": "XML View: Search Entry in a new Window",
+        "icon": "$(search)"
+      },
+      {
+        "command": "xmlView.searchEntryInline",
+        "title": "XML View: Search Entry",
+        "icon": "$(list-selection)"
+      },
+      {
+        "command": "xmlView.addEntry",
+        "title": "XML View: Add Entry",
+        "icon": "$(add)"
+      },
+      {
+        "command": "experimentalView.addSnippet",
+        "title": "Experimental View: Add Snippet"
+      },
+      {
+        "command": "experimentalView.clearSnippets",
+        "title": "Experimental View: Clear Snippets",
+        "icon": "$(clear-all)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "experimentalView.clearSnippets",
+          "group": "navigation",
+          "when": "view == experimentalView"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "semanticView.searchEntry",
+          "when": "view == semanticView",
+          "group": "inline"
+        },
+        {
+          "command": "semanticView.searchEntryInline",
+          "when": "view == semanticView",
+          "group": "inline"
+        },
+        {
+          "command": "semanticView.addEntry",
+          "when": "view == semanticView && viewItem =~ /^([semantics]+?)\/[0-9]/",
+          "group": "inline"
+        },
+        {
+          "command": "xmlView.searchEntry",
+          "when": "view == xmlView",
+          "group": "inline"
+        },
+        {
+          "command": "xmlView.searchEntryInline",
+          "when": "view == xmlView",
+          "group": "inline"
+        },
+        {
+          "command": "xmlView.addEntry",
+          "when": "view == xmlView",
+          "group": "inline"
+        }
+      ]
+    },
+    "languages": [
+      {
+        "id": "xml",
+        "extensions": [
+          ".ssb"
+        ]
+      }
+    ],
+    "jsonValidation": [
+      {
+        "fileMatch": "package.json",
+        "url": "./schemas/package.schema.json"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "semanticCrosswalkExplorer",
+          "title": "Semantic Crosswalk Explorer",
+          "icon": "icons/project-diagram-solid.svg"
+        }
+      ]
+    },
+    "views": {
+      "semanticCrosswalkExplorer": [
+        {
+          "type": "tree",
+          "id": "semanticView",
+          "name": "Semantic View"
+        },
+        {
+          "type": "tree",
+          "id": "xmlView",
+          "name": "XML View"
+        },
+        {
+          "type": "webview",
+          "id": "experimentalView",
+          "name": "Experimental View",
+          "visibility": "collapsed"
+        }
+      ]
+    }
   }
 }
