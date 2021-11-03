@@ -1,0 +1,859 @@
+{
+  "rsm:CrossIndustryInvoice": {
+    "ram:SupplyChainTradeTransaction": {
+        "ram:ApplicableHeaderTradeSettlement": {
+            "qdt:InvoiceCurrencyCode": {
+                "@listVersionID": {},
+                "@listAgencyID": {},
+                "@listURI": {},
+                "@listID": {}
+            },
+            "qdt:TaxCurrencyCode": {
+                "@listVersionID": {},
+                "@listAgencyID": {},
+                "@listURI": {},
+                "@listID": {}
+            },
+            "ram:SpecifiedTradeSettlementPaymentMeans": {
+                "qdt:GuaranteeMethodCode": {
+                    "@listVersionID": {},
+                    "@listAgencyID": {},
+                    "@listID": {}
+                },
+                "ram:PayeePartyCreditorFinancialAccount": {
+                    "udt:IBANID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:AccountName": {
+                        "@languageID": {},
+                        "@languageLocaleID": {}
+                    },
+                    "udt:ProprietaryID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    }
+                },
+                "ram:PayerPartyDebtorFinancialAccount": {
+                    "udt:IBANID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:AccountName": {
+                        "@languageID": {},
+                        "@languageLocaleID": {}
+                    },
+                    "udt:ProprietaryID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    }
+                },
+                "udt:PaymentMethodCode": {
+                    "@name": {},
+                    "@listName": {},
+                    "@languageID": {},
+                    "@listSchemeURI": {},
+                    "@listAgencyName": {},
+                    "@listVersionID": {},
+                    "@listAgencyID": {},
+                    "@listURI": {},
+                    "@listID": {}
+                },
+                "ram:ApplicableTradeSettlementFinancialCard": {},
+                "qdt:TypeCode": {
+                    "@listVersionID": {},
+                    "@listAgencyID": {},
+                    "@listID": {}
+                },
+                "udt:ID": {
+                    "@schemeAgencyID": {},
+                    "@schemeName": {},
+                    "@schemeVersionID": {},
+                    "@schemeID": {},
+                    "@schemeDataURI": {},
+                    "@schemeAgencyName": {},
+                    "@schemeURI": {}
+                },
+                "ram:PayerSpecifiedDebtorFinancialInstitution": {
+                    "udt:NewZealandNCCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:AustrianBankleitzahlID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:AustralianBSBID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:JapanFinancialInstitutionCommonID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:SouthAfricanNCCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "ram:SubDivisionBranchFinancialInstitution": {
+                        "udt:Name": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "ram:LocationFinancialInstitutionAddress": {},
+                        "udt:ID": {
+                            "@schemeAgencyID": {},
+                            "@schemeName": {},
+                            "@schemeVersionID": {},
+                            "@schemeID": {},
+                            "@schemeDataURI": {},
+                            "@schemeAgencyName": {},
+                            "@schemeURI": {}
+                        }
+                    },
+                    "udt:PortugueseNCCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:BICID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:PolishNationalClearingID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "ram:LocationFinancialInstitutionAddress": {
+                        "udt:CountrySubDivisionName": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:CountryName": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:CountryID": {
+                            "@schemeAgencyID": {},
+                            "@schemeName": {},
+                            "@schemeVersionID": {},
+                            "@schemeID": {},
+                            "@schemeDataURI": {},
+                            "@schemeAgencyName": {},
+                            "@schemeURI": {}
+                        },
+                        "udt:LineTwo": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:LineFive": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:CityName": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:StreetName": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:DepartmentName": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:CityID": {
+                            "@schemeAgencyID": {},
+                            "@schemeName": {},
+                            "@schemeVersionID": {},
+                            "@schemeID": {},
+                            "@schemeDataURI": {},
+                            "@schemeAgencyName": {},
+                            "@schemeURI": {}
+                        },
+                        "udt:TypeCode": {
+                            "@name": {},
+                            "@listName": {},
+                            "@languageID": {},
+                            "@listSchemeURI": {},
+                            "@listAgencyName": {},
+                            "@listVersionID": {},
+                            "@listAgencyID": {},
+                            "@listURI": {},
+                            "@listID": {}
+                        },
+                        "udt:BuildingNumber": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:LineFour": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:PostcodeCode": {
+                            "@name": {},
+                            "@listName": {},
+                            "@languageID": {},
+                            "@listSchemeURI": {},
+                            "@listAgencyName": {},
+                            "@listVersionID": {},
+                            "@listAgencyID": {},
+                            "@listURI": {},
+                            "@listID": {}
+                        },
+                        "udt:LineThree": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:CountrySubDivisionID": {
+                            "@schemeAgencyID": {},
+                            "@schemeName": {},
+                            "@schemeVersionID": {},
+                            "@schemeID": {},
+                            "@schemeDataURI": {},
+                            "@schemeAgencyName": {},
+                            "@schemeURI": {}
+                        },
+                        "udt:LineOne": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        },
+                        "udt:PostOfficeBox": {
+                            "@languageID": {},
+                            "@languageLocaleID": {}
+                        }
+                    },
+                    "udt:ItalianDomesticID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:Name": {
+                        "@languageID": {},
+                        "@languageLocaleID": {}
+                    },
+                    "udt:RussianCentralBankID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:IndianFinancialSystemID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:CanadianPaymentsAssociationID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:GermanBankleitzahlID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:HellenicBankID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:SwissBCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:IrishNSCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:UKSortCodeID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:CHIPSParticipantID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:SpanishDomesticInterbankingID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:SICID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:ClearingSystemName": {
+                        "@languageID": {},
+                        "@languageLocaleID": {}
+                    },
+                    "udt:FedwireRoutingNumberID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:HongKongBankID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:CHIPSUniversalID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    }
+                },
+                "qdt:PaymentChannelCode": {
+                    "@name": {},
+                    "@listVersionID": {},
+                    "@listAgencyID": {},
+                    "@listID": {}
+                },
+                "udt:Information": {
+                    "@languageID": {},
+                    "@languageLocaleID": {}
+                },
+                "ram:PayeeSpecifiedCreditorFinancialInstitution": {
+                    "udt:NewZealandNCCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:AustrianBankleitzahlID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:AustralianBSBID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:JapanFinancialInstitutionCommonID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:SouthAfricanNCCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "ram:SubDivisionBranchFinancialInstitution": {},
+                    "udt:PortugueseNCCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:BICID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:PolishNationalClearingID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "ram:LocationFinancialInstitutionAddress": {},
+                    "udt:ItalianDomesticID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:Name": {
+                        "@languageID": {},
+                        "@languageLocaleID": {}
+                    },
+                    "udt:RussianCentralBankID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:IndianFinancialSystemID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:CanadianPaymentsAssociationID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:GermanBankleitzahlID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:HellenicBankID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:SwissBCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:IrishNSCID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:UKSortCodeID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:CHIPSParticipantID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:SpanishDomesticInterbankingID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:SICID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:ClearingSystemName": {
+                        "@languageID": {},
+                        "@languageLocaleID": {}
+                    },
+                    "udt:FedwireRoutingNumberID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:HongKongBankID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    },
+                    "udt:CHIPSUniversalID": {
+                        "@schemeAgencyID": {},
+                        "@schemeName": {},
+                        "@schemeVersionID": {},
+                        "@schemeID": {},
+                        "@schemeDataURI": {},
+                        "@schemeAgencyName": {},
+                        "@schemeURI": {}
+                    }
+                }
+            },
+            "ram:ApplicableTradeTax": {}
+        }
+    },
+    "ram:ExchangedDocument": {
+        "udt:LanguageID": {
+            "@schemeAgencyID": {},
+            "@schemeName": {},
+            "@schemeVersionID": {},
+            "@schemeID": {},
+            "@schemeDataURI": {},
+            "@schemeAgencyName": {},
+            "@schemeURI": {}
+        },
+        "udt:VersionID": {
+            "@schemeAgencyID": {},
+            "@schemeName": {},
+            "@schemeVersionID": {},
+            "@schemeID": {},
+            "@schemeDataURI": {},
+            "@schemeAgencyName": {},
+            "@schemeURI": {}
+        },
+        "udt:Name": {
+            "@languageID": {},
+            "@languageLocaleID": {}
+        },
+        "udt:ControlRequirementIndicator": {},
+        "udt:CopyIndicator": {},
+        "udt:RevisionDateTime": {},
+        "udt:PreviousRevisionID": {
+            "@schemeAgencyID": {},
+            "@schemeName": {},
+            "@schemeVersionID": {},
+            "@schemeID": {},
+            "@schemeDataURI": {},
+            "@schemeAgencyName": {},
+            "@schemeURI": {}
+        },
+        "ram:EffectiveSpecifiedPeriod": {
+            "udt:Description": {
+                "@languageID": {},
+                "@languageLocaleID": {}
+            },
+            "udt:InclusiveIndicator": {},
+            "udt:Name": {
+                "@languageID": {},
+                "@languageLocaleID": {}
+            },
+            "udt:ContinuousIndicator": {},
+            "udt:SeasonCode": {
+                "@name": {},
+                "@listName": {},
+                "@languageID": {},
+                "@listSchemeURI": {},
+                "@listAgencyName": {},
+                "@listVersionID": {},
+                "@listAgencyID": {},
+                "@listURI": {},
+                "@listID": {}
+            },
+            "udt:SequenceNumeric": {"@format": {}},
+            "udt:OpenIndicator": {},
+            "udt:EndDateTime": {},
+            "udt:ID": {
+                "@schemeAgencyID": {},
+                "@schemeName": {},
+                "@schemeVersionID": {},
+                "@schemeID": {},
+                "@schemeDataURI": {},
+                "@schemeAgencyName": {},
+                "@schemeURI": {}
+            },
+            "udt:DurationMeasure": {
+                "@unitCode": {},
+                "@unitCodeListVersionID": {}
+            },
+            "udt:PurposeCode": {
+                "@name": {},
+                "@listName": {},
+                "@languageID": {},
+                "@listSchemeURI": {},
+                "@listAgencyName": {},
+                "@listVersionID": {},
+                "@listAgencyID": {},
+                "@listURI": {},
+                "@listID": {}
+            },
+            "udt:StartDateFlexibilityCode": {
+                "@name": {},
+                "@listName": {},
+                "@languageID": {},
+                "@listSchemeURI": {},
+                "@listAgencyName": {},
+                "@listVersionID": {},
+                "@listAgencyID": {},
+                "@listURI": {},
+                "@listID": {}
+            },
+            "udt:StartDateTime": {},
+            "udt:CompleteDateTime": {}
+        },
+        "udt:IssueDateTime": {},
+        "qdt:TypeCode": {
+            "@name": {},
+            "@listVersionID": {},
+            "@listAgencyID": {},
+            "@listURI": {},
+            "@listID": {}
+        },
+        "ram:IncludedNote": {
+            "udt:SubjectCode": {
+                "@name": {},
+                "@listName": {},
+                "@languageID": {},
+                "@listSchemeURI": {},
+                "@listAgencyName": {},
+                "@listVersionID": {},
+                "@listAgencyID": {},
+                "@listURI": {},
+                "@listID": {}
+            },
+            "udt:Subject": {
+                "@languageID": {},
+                "@languageLocaleID": {}
+            },
+            "udt:Content": {
+                "@languageID": {},
+                "@languageLocaleID": {}
+            },
+            "udt:ContentCode": {
+                "@name": {},
+                "@listName": {},
+                "@languageID": {},
+                "@listSchemeURI": {},
+                "@listAgencyName": {},
+                "@listVersionID": {},
+                "@listAgencyID": {},
+                "@listURI": {},
+                "@listID": {}
+            },
+            "udt:ID": {
+                "@schemeAgencyID": {},
+                "@schemeName": {},
+                "@schemeVersionID": {},
+                "@schemeID": {},
+                "@schemeDataURI": {},
+                "@schemeAgencyName": {},
+                "@schemeURI": {}
+            }
+        },
+        "udt:GlobalID": {
+            "@schemeAgencyID": {},
+            "@schemeName": {},
+            "@schemeVersionID": {},
+            "@schemeID": {},
+            "@schemeDataURI": {},
+            "@schemeAgencyName": {},
+            "@schemeURI": {}
+        },
+        "udt:ID": {
+            "@schemeAgencyID": {},
+            "@schemeName": {},
+            "@schemeVersionID": {},
+            "@schemeID": {},
+            "@schemeDataURI": {},
+            "@schemeAgencyName": {},
+            "@schemeURI": {}
+        },
+        "qdt:PurposeCode": {
+            "@listVersionID": {},
+            "@listAgencyID": {},
+            "@listURI": {},
+            "@listID": {}
+        },
+        "udt:RevisionID": {
+            "@schemeAgencyID": {},
+            "@schemeName": {},
+            "@schemeVersionID": {},
+            "@schemeID": {},
+            "@schemeDataURI": {},
+            "@schemeAgencyName": {},
+            "@schemeURI": {}
+        },
+        "udt:Purpose": {
+            "@languageID": {},
+            "@languageLocaleID": {}
+        },
+        "udt:CategoryCode": {
+            "@name": {},
+            "@listName": {},
+            "@languageID": {},
+            "@listSchemeURI": {},
+            "@listAgencyName": {},
+            "@listVersionID": {},
+            "@listAgencyID": {},
+            "@listURI": {},
+            "@listID": {}
+        }
+    }
+  }
+}
