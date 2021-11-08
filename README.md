@@ -52,13 +52,11 @@ TC434 has limited resources, especially with regard to the very technical work o
 
 ## Supported by
 
-<div style="display: table;">
-	<div style="display: table-cell; float: left; margin-right: 10px;">
-		<a href="https://www.ngi.eu/"><img alt="Image DAPSI - Data Portability & Services Incubator" src="https://dapsi.ngi.eu/wp-content/uploads/2020/01/NGI_DAPSI_Tag-color-positive-large.png" width="225" height="75"></a>
-	</div>
-	<div style="display: table-cell; vertical-align: middle;">
-		<b>Data Portability & Services Incubator (DAPSI) program</b> - <a href="https://dapsi.ngi.eu/">https://dapsi.ngi.eu/</a> <br/>
-		<b>EU Grant Agreement No.: 871498</b> - <a href="https://cordis.europa.eu/project/id/871498">https://cordis.europa.eu/project/id/871498</a> <br/>
-		<b>Call: H2020-ICT-2018-2020</b>
-	</div>
+<div>
+	<a href="https://www.ngi.eu/"><img alt="Image DAPSI - Data Portability & Services Incubator" src="https://dapsi.ngi.eu/wp-content/uploads/2020/01/NGI_DAPSI_Tag-color-positive-large.png" width="225" height="75" align="left"></a>
+</div>
+<div>
+	<b>Data Portability & Services Incubator (DAPSI) program</b> - <a href="https://dapsi.ngi.eu/">https://dapsi.ngi.eu/</a> <br/>
+	<b>EU Grant Agreement No.: 871498</b> - <a href="https://cordis.europa.eu/project/id/871498">https://cordis.europa.eu/project/id/871498</a> <br/>
+	<b>Call: H2020-ICT-2018-2020</b>
 </div>
