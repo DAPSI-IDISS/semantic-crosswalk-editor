@@ -5,7 +5,7 @@
   "version": "0.18.1",
   "author": "DAPSI-IDISS",
   "publisher": "DAPSI-IDISS",
-  "icon": "icons/idiss-icon128.png",
+  "icon": "icons/idiss-logo256.png",
   "license": "MIT",
   "bugs": "https://github.com/DAPSI-IDISS/semantic-crosswalk-editor/issues",
   "preview": true,
