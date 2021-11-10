@@ -7,7 +7,7 @@
 import * as vscode from 'vscode'; // TODO: Fix imports to only require the ones we use
 
 import { ExperimentalView } from './experimentalView';
-import { GraphView } from './graphView';
+import { GraphView, GraphViewSerializer } from './graphView';
 import { SemanticView } from './semanticView';
 import { XMLView } from './xmlView';
 
@@ -44,6 +44,8 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
 
   context.subscriptions.push(
     vscode.window.registerWebviewViewProvider(GraphView.viewType, graphViewProvider));
+
+  context.subscriptions.push(vscode.window.registerWebviewPanelSerializer('graphView', new GraphViewSerializer(graphViewProvider)));
 
   context.subscriptions.push(
     vscode.languages.registerDocumentSymbolProvider(

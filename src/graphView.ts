@@ -44,7 +44,7 @@ export class GraphView implements vscode.WebviewViewProvider {
     webviewView.webview.html = this._getHtmlForWebview(webviewView.webview);
   }
 
-  private _getHtmlForWebview(webview: vscode.Webview) {
+  public _getHtmlForWebview(webview: vscode.Webview) {
     // Get cytoscape script uri from modules
     const cytoscapeUri = webview.asWebviewUri(
       vscode.Uri.joinPath(this._extensionUri, "node_modules", "cytoscape", "dist", "cytoscape.min.js")
@@ -103,4 +103,15 @@ function getNonce() {
     text += possible.charAt(Math.floor(Math.random() * possible.length));
   }
   return text;
+}
+
+export class GraphViewSerializer implements vscode.WebviewPanelSerializer {
+  constructor(private graphViewProvider: GraphView) {}
+  async deserializeWebviewPanel(webviewPanel: vscode.WebviewPanel, state: any) {
+    // `state` is the state persisted using `setState` inside the webview
+    console.log(`Restored state: ${JSON.stringify(state)}`);
+    // Restore the content of our webview.
+    // Make sure we hold on to the `webviewPanel` passed in here and also restore any event listeners we need on it.
+    webviewPanel.webview.html = this.graphViewProvider._getHtmlForWebview(webviewPanel.webview);
+  }
 }
