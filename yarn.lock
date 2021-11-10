@@ -33,6 +33,11 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
+"@types/cytoscape@^3.19.0":
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/@types/cytoscape/-/cytoscape-3.19.0.tgz#1acd8df260af0eb088191f84df8ca055353f6196"
+  integrity sha512-EbUrbDqequXtSkpPvtpX1Xf7nDFh+eB/2h/Sv1SiQ9IjCJENSwi9Wfv/vRkH9YTcgNoCot20eyIyMbxHfh0YDg==
+
 "@types/eslint-scope@^3.7.0":
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.1.tgz#8dc390a7b4f9dd9f1284629efce982e41612116e"
@@ -440,6 +445,14 @@ cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+cytoscape@^3.20.0:
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-3.20.0.tgz#c626c1074f3a8a6f1bc58e8fbee8fd798a6fcbf3"
+  integrity sha512-V2OUoav8ltY9UPgdjuhQOqkkWT28IbJODioWCjcnLqmjym9lMpnD0ie0vdQCdAiZapjbTGAv8aoKmmSuVcC1gA==
+  dependencies:
+    heap "^0.2.6"
+    lodash.debounce "^4.0.8"
+
 debug@4:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
@@ -641,6 +654,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+heap@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/heap/-/heap-0.2.6.tgz#087e1f10b046932fc8594dd9e6d378afc9d1e5ac"
+  integrity sha1-CH4fELBGky/IWU3Z5tN4r8nR5aw=
+
 http-proxy-agent@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-4.0.1.tgz#8a8c8ef7f5932ccf953c296ca8291b95aa74aa3a"
@@ -786,6 +804,11 @@ locate-path@^5.0.0:
   integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
   dependencies:
     p-locate "^4.1.0"
+
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
 lru-cache@^6.0.0:
   version "6.0.0"
