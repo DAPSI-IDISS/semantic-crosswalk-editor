@@ -26,6 +26,8 @@
   },
   "activationEvents": [
     "onView:experimentalView",
+    "onView:graphView",
+    "onWebviewPanel:graphView",
     "onLanguage:xml",
     "onLanguage:xsl"
   ],
