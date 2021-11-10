@@ -2,6 +2,7 @@ import * as vscode from "vscode";
 
 export class GraphView implements vscode.WebviewViewProvider {
   constructor(private context: vscode.ExtensionContext) {
+    // Provide WebviewPanel (Editor Tab)
     vscode.commands.registerCommand('graphView.start', () => {
       // Create and show panel
       const panel = vscode.window.createWebviewPanel(
@@ -22,27 +23,25 @@ export class GraphView implements vscode.WebviewViewProvider {
     })
   }
 
-  private _view?: vscode.WebviewView;
-  private _extensionUri = this.context.extensionUri;
-  private webViewOptions = {
-    // Allow scripts in the webview
-    enableScripts: true,
-    localResourceRoots: [this._extensionUri],
-  }
-
-  public static readonly viewType = "graphView";
-
+  // Provide WebviewView (Sidebar Menu)
   public resolveWebviewView(
     webviewView: vscode.WebviewView,
     context: vscode.WebviewViewResolveContext,
     _token: vscode.CancellationToken
   ) {
-    this._view = webviewView;
-
     webviewView.webview.options = this.webViewOptions;
-
     webviewView.webview.html = this._getHtmlForWebview(webviewView.webview);
   }
+
+  // Properties and methods below are shared between Webviews
+  private _extensionUri = this.context.extensionUri;
+  private webViewOptions = {
+    // Allow scripts and local resources in the webview
+    enableScripts: true,
+    localResourceRoots: [this._extensionUri],
+  }
+
+  public static readonly viewType = "graphView";
 
   public _getHtmlForWebview(webview: vscode.Webview) {
     // Get cytoscape script uri from modules
