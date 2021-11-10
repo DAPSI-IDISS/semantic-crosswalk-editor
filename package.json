@@ -152,6 +152,12 @@
         "command": "experimentalView.clearSnippets",
         "title": "Experimental View: Clear Snippets",
         "icon": "$(clear-all)"
+      },
+      {
+        "command": "graphView.start",
+        "title": "Start new Cytoscape Graph Session",
+        "category": "Graph View",
+        "icon": "$(circuit-board)"
       }
     ],
     "menus": {
@@ -235,6 +241,11 @@
           "id": "experimentalView",
           "name": "Experimental View",
           "visibility": "collapsed"
+        },
+        {
+          "type": "webview",
+          "id": "graphView",
+          "name": "Graph View"
         }
       ]
     }
