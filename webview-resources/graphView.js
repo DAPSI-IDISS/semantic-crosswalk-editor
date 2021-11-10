@@ -63,16 +63,11 @@
           'border-color': '#999',
           'label': 'data(id)',
           'shape': 'rectangle',
-        },
-      },
-      {
-        selector: 'label',
-        style: {
           'color': '#fff',
           'font-size': 12,
           'text-halign': 'center',
           'text-valign': 'center',
-        }
+        },
       },
       {
         selector: 'edge',
