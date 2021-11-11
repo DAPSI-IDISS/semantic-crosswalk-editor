@@ -385,17 +385,20 @@ export class SemanticView implements vscode.TreeDataProvider<number> {
     const unusedSemantics = this.getSemanticsPathList();
     // get current document
     this.editor = vscode.window.activeTextEditor;
-    this.document = this.editor.document;
+    this.document = this.editor?.document;
 
-    let line: vscode.TextLine;
+    // only iterate over the content if editor has a document and it's an XML file
+    if (this.document && this.document.languageId === 'xml') {
+      let line: vscode.TextLine;
 
-    for (let i = 0; i < this.document.lineCount; i++) {
-      line = this.document.lineAt(i);
-      if (this.isSemanticOpeningLine(line.text)) {
-        for (const semanticPath of unusedSemantics) {
-          if (this.getSemanticElementId(line.text) === this.getSemanticAttributeValue(this.getValueNode(this.getElementOffsetByPath(semanticPath)), 'id')) {
-            this.removeItem(unusedSemantics, semanticPath);
-            break;
+      for (let i = 0; i < this.document.lineCount; i++) {
+        line = this.document.lineAt(i);
+        if (this.isSemanticOpeningLine(line.text)) {
+          for (const semanticPath of unusedSemantics) {
+            if (this.getSemanticElementId(line.text) === this.getSemanticAttributeValue(this.getValueNode(this.getElementOffsetByPath(semanticPath)), 'id')) {
+              this.removeItem(unusedSemantics, semanticPath);
+              break;
+            }
           }
         }
       }
