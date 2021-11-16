@@ -74,6 +74,7 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
   updateStatusBarItem();
 
   // Register listener to update decorators
+  context.subscriptions.push(vscode.window.onDidChangeActiveTextEditor(updateDecorationProvider));
   context.subscriptions.push(vscode.workspace.onDidChangeTextDocument(updateDecorationProvider));
 }
 

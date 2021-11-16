@@ -16,7 +16,7 @@ export class SemanticView implements vscode.TreeDataProvider<number> {
   public unusedSemantics = [];
 
   constructor(private context: vscode.ExtensionContext) {
-    let timeout = undefined;
+    let timeout: NodeJS.Timeout = undefined;
     // Add sample tree data
     this.parseTree();
     // update once at TreeView init to get "enablement" of unusedSemantics
@@ -69,24 +69,8 @@ export class SemanticView implements vscode.TreeDataProvider<number> {
     });
 
     // register workspace event listeners
-    vscode.workspace.onDidChangeTextDocument(changeEvent => {
-      if (changeEvent.document.languageId === 'xml') {
-        // use a threshold for update trigger
-        if (timeout) {
-          clearTimeout(timeout);
-        }
-        timeout = setTimeout(() => {
-          // async update tree view (only update if unusedSemantics changed)
-          let changedUnusedSemantics = this.getUnusedSemantics();
-          if (this.unusedSemantics.toString() !== changedUnusedSemantics.toString()) {
-            this.unusedSemantics = changedUnusedSemantics;
-            vscode.commands.executeCommand('setContext', 'unusedSemantics', this.unusedSemantics).then(() => {
-              this.refresh(0); // refresh the whole Tree - TODO: refresh only the changed semantics here
-            });
-          }
-        }, 500);
-      }
-    });
+    vscode.window.onDidChangeActiveTextEditor(changeEvent => {this.updateUnusedSemantics(changeEvent.document, timeout)});
+    vscode.workspace.onDidChangeTextDocument(changeEvent => {this.updateUnusedSemantics(changeEvent.document, timeout)});
   }
 
   // Tree data provider
@@ -405,6 +389,25 @@ export class SemanticView implements vscode.TreeDataProvider<number> {
     }
 
     return unusedSemantics;
+  }
+
+  public updateUnusedSemantics(document: vscode.TextDocument, timeout: NodeJS.Timeout) {
+    if (document.languageId === 'xml') {
+      // use a threshold for update trigger
+      if (timeout) {
+        clearTimeout(timeout);
+      }
+      timeout = setTimeout(() => {
+        // async update tree view (only update if unusedSemantics changed)
+        let changedUnusedSemantics = this.getUnusedSemantics();
+        if (this.unusedSemantics.toString() !== changedUnusedSemantics.toString()) {
+          this.unusedSemantics = changedUnusedSemantics;
+          vscode.commands.executeCommand('setContext', 'unusedSemantics', this.unusedSemantics).then(() => {
+            this.refresh(0); // refresh the whole Tree - TODO: refresh only the changed semantics here
+          });
+        }
+      }, 500);
+    }
   }
 
   private getSemanticsPathList(): Array<string> {
