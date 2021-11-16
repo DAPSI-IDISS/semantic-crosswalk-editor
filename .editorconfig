@@ -14,3 +14,8 @@ insert_final_newline = true
 [*.md]
 indent_style = tab
 trim_trailing_whitespace = false
+
+# keep xml and ssb with tab indent style (currently the indentation of snippet insertion relies on tabs)
+[*.{xml,ssb}]
+indent_style = tab
+indent_size = 4
