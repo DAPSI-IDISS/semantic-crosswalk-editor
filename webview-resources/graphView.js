@@ -82,18 +82,27 @@
           'line-color': '#999',
           'target-arrow-color': '#999',
           'target-arrow-shape': 'triangle',
-          'curve-style': 'bezier',
+          'curve-style': 'taxi',
+          'taxi-direction': 'vertical',
         }
       }
     ],
     layout: { // The initial layout, for built-in layouts/algorithms see: https://js.cytoscape.org/#layouts
-      name: 'breadthfirst',
+      name: 'elk',
+      elk: {
+        // All options are available at http://www.eclipse.org/elk/reference.html
+        // 'org.eclipse.elk.' can be dropped from the Identifier
+        // Or look at demo-demo.js for an example.
+        // Enums use the name of the enum e.g.
+        // 'searchOrder': 'DFS'
+        //
+        // The main field to set is `algorithm`, which controls which particular
+        // layout algorithm is used.
+        algorithm: 'layered',
+      },
 
       fit: true, // Whether to fit the viewport to the graph
-      directed: true, // Whether the tree is directed downwards (or edges can point in any direction if false)
       padding: 20, // Padding on fit
-      circle: false, // Put depths in concentric circles if true, put depths top down if false
-      grid: false, // Whether to create an even grid into which the DAG is placed (circle:false only)
       spacingFactor: 1.2, // Positive spacing factor, larger => more space between nodes (N.B. n/a if causes overlap)
       boundingBox: undefined, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h }
       avoidOverlap: true, // Prevents node overlap, may overflow boundingBox if not enough space
@@ -104,10 +113,18 @@
       animationDuration: 500, // Duration of animation in ms if enabled
       animationEasing: undefined, // Easing of animation if enabled,
       animateFilter: function ( node, i ){ return true; }, // A function that determines whether the node should be animated.  All nodes animated by default on animate enabled.  Non-animated nodes are positioned immediately when the layout starts
-      ready: undefined, // Callback on layoutready
+      ready: () => {
+        // Import from previous vscode state (just mutate the required objects)
+        cy.json({
+          elements: graphData.elements,
+          pan: graphData.pan,
+          zoom: graphData.zoom
+        });
+      }, // Callback on layoutready
       stop: undefined, // Callback on layoutstop
-      transform: function ( node, position ){ return position; } // Transform a given node position. Useful for changing flow direction in discrete layouts
-    }
+      transform: function ( node, position ){ return position; }, // Transform a given node position. Useful for changing flow direction in discrete layouts
+      priority: function( edge ){ return null; }, // Edges with a non-nil value are skipped when geedy edge cycle breaking is enabled
+    },
   };
 
   // Uncomment to reset state on next init
@@ -118,13 +135,6 @@
   let graphData = oldState;
   // @ts-ignore
   const cy = cytoscape(initialState);
-
-  // Import from previous vscode state (just mutate the required objects)
-  cy.json({
-    elements: graphData.elements,
-    pan: graphData.pan,
-    zoom: graphData.zoom
-  });
 
   // Re-apply the layout (will be used to trigger layout reset via the UI later)
   // cy.layout(graphData.layout).run();

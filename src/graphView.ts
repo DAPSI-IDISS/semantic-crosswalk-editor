@@ -44,9 +44,15 @@ export class GraphView implements vscode.WebviewViewProvider {
   public static readonly viewType = "graphView";
 
   public _getHtmlForWebview(webview: vscode.Webview) {
-    // Get cytoscape script uri from modules
+    // Get cytoscape, elkjs, cytoscape-elk script uris from modules
     const cytoscapeUri = webview.asWebviewUri(
       vscode.Uri.joinPath(this._extensionUri, "node_modules", "cytoscape", "dist", "cytoscape.min.js")
+    );
+    const elkJsUri = webview.asWebviewUri(
+      vscode.Uri.joinPath(this._extensionUri, "node_modules", "elkjs", "lib", "elk.bundled.js")
+    );
+    const cytoscapeElkUri = webview.asWebviewUri(
+      vscode.Uri.joinPath(this._extensionUri, "node_modules", "cytoscape-elk", "dist", "cytoscape-elk.js")
     );
     // Get the local path from main script to run in the webview
     const scriptUri = webview.asWebviewUri(
@@ -88,6 +94,8 @@ export class GraphView implements vscode.WebviewViewProvider {
         <div id="cy"></div>
 
         <script nonce="${nonce}" src="${cytoscapeUri}"></script>
+        <script nonce="${nonce}" src="${elkJsUri}"></script>
+        <script nonce="${nonce}" src="${cytoscapeElkUri}"></script>
         <script nonce="${nonce}" src="${scriptUri}"></script>
       </body>
       </html>`;
