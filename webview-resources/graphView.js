@@ -10,7 +10,8 @@
   // @ts-ignore
   const vscode = acquireVsCodeApi();
 
-  const testData = [ // The elements of the graph, for complete notation see: https://js.cytoscape.org/#notation/elements-json
+  /*
+  const elementsData = [ // Sample for a minimal element setup of the graph, for complete notation see: https://js.cytoscape.org/#notation/elements-json
     // Nodes
     {
       data: { id: 'a' }
@@ -53,10 +54,16 @@
       data: { id: 'cc-1', source: 'c', target: 'c-1' }
     },
   ];
+  */
+
+  // Test to access the nonce within the script
+  // let nonce = document.querySelector('script[nonce]').nonce;
+  // console.log(nonce)
 
   const initialState = {
     container: document.getElementById('cy'), // Container to render in
-    elements: testData,
+    // @ts-ignore
+    elements: elementsData, // External file imported via elementsData in graphView.ts
     style: [ // The stylesheet for the graph, for all options see https://js.cytoscape.org/#style
       {
         selector: 'node',

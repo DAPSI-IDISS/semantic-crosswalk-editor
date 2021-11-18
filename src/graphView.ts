@@ -1,4 +1,5 @@
 import * as vscode from "vscode";
+import * as graphData from './../sample-data/graphs/planar-chain.json';
 
 export class GraphView implements vscode.WebviewViewProvider {
   constructor(private context: vscode.ExtensionContext) {
@@ -96,6 +97,9 @@ export class GraphView implements vscode.WebviewViewProvider {
         <script nonce="${nonce}" src="${cytoscapeUri}"></script>
         <script nonce="${nonce}" src="${elkJsUri}"></script>
         <script nonce="${nonce}" src="${cytoscapeElkUri}"></script>
+        <script nonce="${nonce}">
+          const elementsData = ${JSON.stringify(graphData)};
+        </script>
         <script nonce="${nonce}" src="${scriptUri}"></script>
       </body>
       </html>`;
