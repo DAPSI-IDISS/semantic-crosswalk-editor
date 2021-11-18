@@ -74,7 +74,7 @@
           'border-width': 2,
           'border-style': 'solid',
           'border-color': '#999',
-          'label': 'data(id)',
+          'label': (node) => { return node.data('sbgnlabel') ? node.data('sbgnlabel') : node.data('id') },
           'shape': 'rectangle',
           'color': '#fff',
           'font-size': 12,
