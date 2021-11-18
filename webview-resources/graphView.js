@@ -69,7 +69,9 @@
         selector: 'node',
         style: {
           'width': 80,
-          'height': 40,
+          // Sample to get the width based on label length
+          // 'width': (node) => { return node.data('sbgnlabel') ? node.data('sbgnlabel').length * 7 : node.data('id').length * 7 },
+          'height': 20,
           'background-color': '#222',
           'border-width': 2,
           'border-style': 'solid',
@@ -80,6 +82,11 @@
           'font-size': 12,
           'text-halign': 'center',
           'text-valign': 'center',
+          'text-max-width': 80,
+          'text-wrap': 'wrap',
+          'padding': 10,
+          'padding-relative-to': 'width',
+          'line-height': 1.2,
         },
       },
       {
@@ -110,7 +117,7 @@
 
       fit: true, // Whether to fit the viewport to the graph
       padding: 20, // Padding on fit
-      spacingFactor: 1.2, // Positive spacing factor, larger => more space between nodes (N.B. n/a if causes overlap)
+      spacingFactor: 1.1, // Positive spacing factor, larger => more space between nodes (N.B. n/a if causes overlap)
       boundingBox: undefined, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h }
       avoidOverlap: true, // Prevents node overlap, may overflow boundingBox if not enough space
       nodeDimensionsIncludeLabels: false, // Excludes the label when calculating node bounding boxes for the layout algorithm
