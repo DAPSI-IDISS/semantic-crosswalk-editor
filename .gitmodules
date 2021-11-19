@@ -1,0 +1,10 @@
+[submodule "lemminx"]
+	path = lemminx
+	url = https://github.com/DAPSI-IDISS/lemminx
+	update = rebase
+	branch = IDISS
+[submodule "vscode-xml"]
+	path = vscode-xml
+	url = https://github.com/DAPSI-IDISS/vscode-xml
+	update = rebase
+	branch = IDISS
