@@ -866,7 +866,7 @@ minimist@^1.2.0, minimist@^1.2.5:
   dependencies:
     minimist "^1.2.5"
 
-mock-require@^3.0.3:
+mock-require@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/mock-require/-/mock-require-3.0.3.tgz#ccd544d9eae81dd576b3f219f69ec867318a1946"
   integrity sha512-lLzfLHcyc10MKQnNUCv7dMcoY/2Qxd6wJfbqCcVk3LDb8An4hF6ohk5AztrvgKhJCqj36uyzi/p5se+tvyD+Wg==
@@ -1267,14 +1267,14 @@ tsutils@^2.29.0:
   dependencies:
     tslib "^1.8.1"
 
-typescript-tslint-plugin@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/typescript-tslint-plugin/-/typescript-tslint-plugin-1.0.1.tgz#9c18e1ad7a3f2883c764794d4a0e6121ea3b2d20"
-  integrity sha512-akj+J1FDoEv8y5uSs6f6SfkY3ywnhnTifDvOmwejSs4U+a18p73YoetrllKCDf14iq0VMNwIgCxNY/v88K6QYg==
+typescript-tslint-plugin@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/typescript-tslint-plugin/-/typescript-tslint-plugin-0.3.1.tgz#d86ae0342c9e8f9ecfcbcc47f7a7c2b5ab0e86f9"
+  integrity sha512-h8HEPBm36UEs901ld1x6m5eY/UFb4mF+A0nvERr4BWMww5wnV5nfcm9ZFt18foYL0GQ5NVMt1Tb3466WUU8dRQ==
   dependencies:
     minimatch "^3.0.4"
-    mock-require "^3.0.3"
-    vscode-languageserver "^5.2.1"
+    mock-require "^3.0.2"
+    vscode-languageserver "^5.1.0"
 
 typescript@^4.4.4:
   version "4.4.4"
@@ -1354,7 +1354,7 @@ vscode-languageserver-types@3.16.0:
   resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz#ecf393fc121ec6974b2da3efb3155644c514e247"
   integrity sha512-k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==
 
-vscode-languageserver@^5.2.1:
+vscode-languageserver@^5.1.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/vscode-languageserver/-/vscode-languageserver-5.2.1.tgz#0d2feddd33f92aadf5da32450df498d52f6f14eb"
   integrity sha512-GuayqdKZqAwwaCUjDvMTAVRPJOp/SLON3mJ07eGsx/Iq9HjRymhKWztX41rISqDKhHVVyFM+IywICyZDla6U3A==
