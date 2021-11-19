@@ -81,6 +81,7 @@
           'color': '#fff',
           'font-family': 'Segoe WPC,Segoe UI,sans-serif',
           'font-size': '13px',
+          'min-zoomed-font-size': '9px',
           'font-weight': '400',
           'text-transform': 'uppercase',
           'text-halign': 'center',
@@ -163,6 +164,8 @@
       priority: function( edge ){ return null; }, // Edges with a non-nil value are skipped when geedy edge cycle breaking is enabled
     },
     // Interaction & rendering options
+    minZoom: 0.3,
+    maxZoom: 1,
     wheelSensitivity: 0.3, // Might behave too slow or too fast on some OS or hardware
   };
 
