@@ -36,8 +36,7 @@
     "test-compile": "tsc -p ./",
     "pretest": "yarn run test-compile",
     "test": "node ./out/test/runTest.js",
-    "tslint": "./node_modules/.bin/tslint -p .",
-    "package": "vsce package --yarn"
+    "tslint": "./node_modules/.bin/tslint -p ."
   },
   "repository": {
     "type": "git",
