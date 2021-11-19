@@ -93,6 +93,26 @@
         },
       },
       {
+        selector: 'node[sbgnlabel="glucose"], node[sbgnlabel="fructose 6P"], node[sbgnlabel="adolase"], node[sbgnlabel="H+"], node[sbgnlabel="2 PG"]',
+        style: {
+          'border-color': '#4e94ce',
+        },
+      },
+      {
+        selector: 'node[sbgnlabel="glucose"]',
+        style: {
+          'background-color': '#1f2429',
+          'color': '#8ed4fe',
+        },
+      },
+      {
+        selector: 'node[sbgnlabel="ADP"], node[sbgnlabel="ATP"]',
+        style: {
+          'border-color': '#ce9178',
+          'color': '#999',
+        },
+      },
+      {
         selector: 'edge',
         style: {
           'width': 3,
