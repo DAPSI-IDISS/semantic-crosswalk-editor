@@ -162,6 +162,8 @@
       transform: function ( node, position ){ return position; }, // Transform a given node position. Useful for changing flow direction in discrete layouts
       priority: function( edge ){ return null; }, // Edges with a non-nil value are skipped when geedy edge cycle breaking is enabled
     },
+    // Interaction & rendering options
+    wheelSensitivity: 0.3, // Might behave too slow or too fast on some OS or hardware
   };
 
   // Uncomment to reset state on next init
