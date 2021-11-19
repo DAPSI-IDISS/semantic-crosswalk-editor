@@ -10,11 +10,10 @@
   "bugs": "https://github.com/DAPSI-IDISS/semantic-crosswalk-editor/issues",
   "preview": true,
   "keywords": [
-    "collaboration",
-    "syntax binding",
-    "semantic",
-    "crosswalk editing",
-    "xml"
+    "xml",
+    "xsl",
+    "xsd",
+    "dtd"
   ],
   "engines": {
     "vscode": "^1.52.0"
@@ -44,10 +43,9 @@
   },
   "categories": [
     "Programming Languages",
-    "Snippets",
-    "Data Science",
-    "Visualization",
-    "Other"
+    "Linters",
+    "Formatters",
+    "Snippets"
   ],
   "devDependencies": {
     "@types/vscode": "^1.61.0",
