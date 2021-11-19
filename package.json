@@ -33,7 +33,7 @@
     "vscode:prepublish": "webpack --mode production",
     "watch": "webpack --mode development --watch",
     "test-compile": "tsc -p ./",
-    "pretest": "yarn run test-compile",
+    "pretest": "npm run test-compile",
     "test": "node ./out/test/runTest.js",
     "tslint": "./node_modules/.bin/tslint -p ."
   },
