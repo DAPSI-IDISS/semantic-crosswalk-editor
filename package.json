@@ -61,9 +61,6 @@
     "jsonc-parser": "^3.0.0",
     "vscode-languageclient": "^7.0.0"
   },
-  "extensionDependencies": [
-    "redhat.vscode-xml"
-  ],
   "contributes": {
     "configuration": {
       "type": "object",
