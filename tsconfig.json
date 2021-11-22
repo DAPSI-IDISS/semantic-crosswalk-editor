@@ -10,7 +10,8 @@
       ],
       "sourceMap": true,
       "resolveJsonModule": true,
-      "rootDir": "."
+      "rootDir": ".",
+      "esModuleInterop": true
   },
   "exclude": [
       "node_modules",
