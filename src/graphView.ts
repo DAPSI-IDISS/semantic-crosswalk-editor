@@ -1,5 +1,4 @@
 import * as vscode from "vscode";
-import * as graphData from './../sample-data/graphs/planar-chain.json';
 
 export class GraphView implements vscode.WebviewViewProvider {
   constructor(private context: vscode.ExtensionContext) {
@@ -45,19 +44,18 @@ export class GraphView implements vscode.WebviewViewProvider {
   public static readonly viewType = "graphView";
 
   public _getHtmlForWebview(webview: vscode.Webview) {
-    // Get cytoscape, elkjs, cytoscape-elk script uris from modules
-    const cytoscapeUri = webview.asWebviewUri(
-      vscode.Uri.joinPath(this._extensionUri, "node_modules", "cytoscape", "dist", "cytoscape.min.js")
+    // Get the path from bundled main scripts as vscode.Uri to run in the webview.
+    // vendor1 includes: cytoscape|heap|web-worker|lodash.debounce
+    const vendor1ScriptUri = webview.asWebviewUri(
+      vscode.Uri.joinPath(this._extensionUri, "dist", "vendor1.graphView.js")
     );
-    const elkJsUri = webview.asWebviewUri(
-      vscode.Uri.joinPath(this._extensionUri, "node_modules", "elkjs", "lib", "elk.bundled.js")
+    // vendor2 includes: elkjs|cytoscape-elk
+    const vendor2ScriptUri = webview.asWebviewUri(
+      vscode.Uri.joinPath(this._extensionUri, "dist", "vendor2.graphView.js")
     );
-    const cytoscapeElkUri = webview.asWebviewUri(
-      vscode.Uri.joinPath(this._extensionUri, "node_modules", "cytoscape-elk", "dist", "cytoscape-elk.js")
-    );
-    // Get the local path from main script to run in the webview
-    const scriptUri = webview.asWebviewUri(
-      vscode.Uri.joinPath(this._extensionUri, "webview-resources", "graphView.js")
+    // includes the main (IDISS) graph scripts
+    const mainScriptUri = webview.asWebviewUri(
+      vscode.Uri.joinPath(this._extensionUri, "dist", "main.graphView.js")
     );
 
     // Do the same for the stylesheet.
@@ -82,7 +80,7 @@ export class GraphView implements vscode.WebviewViewProvider {
           Use a content security policy to only allow loading images & css from https or from our extension directory,
           and only allow scripts that have a specific nonce.
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src ${webview.cspSource} 'unsafe-inline'; script-src 'nonce-${nonce}'; img-src 'self' *;">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src ${webview.cspSource} 'unsafe-inline'; script-src 'nonce-${nonce}' 'unsafe-eval'; img-src 'self' *;">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link href="${styleResetUri}" rel="stylesheet">
@@ -94,13 +92,9 @@ export class GraphView implements vscode.WebviewViewProvider {
       <body>
         <div id="cy"></div>
 
-        <script nonce="${nonce}" src="${cytoscapeUri}"></script>
-        <script nonce="${nonce}" src="${elkJsUri}"></script>
-        <script nonce="${nonce}" src="${cytoscapeElkUri}"></script>
-        <script nonce="${nonce}">
-          const elementsData = ${JSON.stringify(graphData)};
-        </script>
-        <script nonce="${nonce}" src="${scriptUri}"></script>
+        <script nonce="${nonce}" src="${vendor1ScriptUri}"></script>
+        <script nonce="${nonce}" src="${vendor2ScriptUri}"></script>
+        <script nonce="${nonce}" src="${mainScriptUri}"></script>
       </body>
       </html>`;
   }
