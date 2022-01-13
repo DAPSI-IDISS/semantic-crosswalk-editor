@@ -4,33 +4,34 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 
 ## Overview
 
-The **purpose** of this project is to enhance the data portability of standards. 
+The **purpose** of this project is to enhance the data portability of standards.
 
-"I love standards there are so many to choose from" -- Marshall T. Rose.
+***"I love standards there are so many to choose from" -- Marshall T. Rose.***
 
-The focus of IDSS is to develop a suite of tools to assist cross metadata (semantic) translation for domain experts. In contrast to initiatives such as the "Semantic Web" we don't build up from a projected ontology as there is no single way to model a domain using an ontology. There is no global truth. Different stakeholders in the domain may consider different semantics for metadata or even hold contradictory claims. Often metadata is designed to be intentionally vague and open to widest range of interpretations and implementations-- see, for example, Dublin Core. The real-world is messy and filled with interoperability issues. In standardization we need to solve them beforehand through interlingua concensus constructed upon formal controlled vocabularies. These demand tools that are not the same as what people tried to develop for the "Semantic Web".. we use the data and some tools but don't follow their paradigm down the rabbit hole.
+The focus of IDSS is to develop a suite of tools to assist cross metadata (semantic) translation for domain experts. In contrast to initiatives such as the "Semantic Web", we don't build up from a projected ontology as there is no single way to model a domain using an ontology. There is no global truth. Different stakeholders in the domain may consider different semantics for metadata or even hold contradictory claims. Often metadata is designed to be intentionally vague and open to the widest range of interpretations and implementations-- see, for example, Dublin Core. The real world is messy and filled with interoperability issues. In standardization, we need to solve them beforehand through interlingua consensus constructed upon formally controlled vocabularies. These demand tools that are not the same as what people tried to develop for the "Semantic Web". we use the data and some tools but don't follow their paradigm down the rabbit hole.
 
-### Interginga Translation
+### Interlingual Translation
 
 Interlingual machine translation is one of the classic approaches to machine translation. In this approach, the source language, i.e. the text to be translated is transformed into an interlingua, i.e., an abstract language-independent representation. The target language is then generated from the interlingua. Within the rule-based machine translation paradigm, the interlingual approach is an alternative to the direct approach and the transfer approach.
 
-In the direct approach, words are translated directly without passing through an additional representation. In the transfer approach the source language is transformed into an abstract, less language-specific representation. Linguistic rules which are specific to the language pair then transform the source language representation into an abstract target language representation and from this the target sentence is generated.
+In the direct approach, words are translated directly without passing through an additional representation. In the transfer approach, the source language is transformed into an abstract, less language-specific representation. Linguistic rules which are specific to the language pair then transform the source language representation into an abstract target language representation and from this, the target sentence is generated.
 
-With an interlingua it becomes unnecessary to make a translation pair between each pair of languages in the system. So instead of creating n ( n − 1 ) language pairs, where n is the number of languages in the system, it is only necessary to make 2 n  pairs between the n languages and the interlingua. 
+With an interlingua, it becomes unnecessary to make a translation pair between each pair of languages in the system. So instead of creating n ( n − 1 ) language pairs, where n is the number of languages in the system, it is only necessary to make 2 n  pairs between the n languages and the interlingua.
 
 ![image](https://user-images.githubusercontent.com/408126/149317225-d4a58f7c-c596-4da2-b97f-89d20af7d7f1.png)
 
-The first ideas about interlingual machine translation appeared in the 17th century with Descartes and Leibniz who came up with theories of how to create dictionaries using universal numerical codes.  These codes in our context are not much different from OIDs (Object IDs): an identifier mechanism standardized by the International Telecommunication Union (ITU) and ISO/IEC for naming any object, concept, or "thing" with a globally unambiguous persistent name. OIDs, formally defined by ITU X.660, are themselves managed by shareholder groups much like DNS domains with a given OID corresponding to a node in the "OID tree". See: 
-* https://www.itu.int/dms_pub/itu-t/oth/0B/04/T0B040000482C01PDFE.pdf (brochure on OIDs)
-* http://www.oid-info.com/ (Object Identifier (OID) Repository). 
+The first ideas about interlingual machine translation appeared in the 17th century with Descartes and Leibniz who came up with theories of how to create dictionaries using universal numerical codes.  These codes in our context are not much different from OIDs (Object IDs): an identifier mechanism standardized by the International Telecommunication Union (ITU) and ISO/IEC for naming any object, concept, or "thing" with a globally unambiguous persistent name. OIDs, formally defined by ITU X.660, are themselves managed by shareholder groups much like DNS domains with a given OID corresponding to a node in the "OID tree". See:
 
-In our initial release we support only single endges between metadata elements but in the future we'll allow n-to-m to support entirely generic designs.
+* [https://www.itu.int/dms_pub/itu-t/oth/0B/04/T0B040000482C01PDFE.pdf](https://www.itu.int/dms_pub/itu-t/oth/0B/04/T0B040000482C01PDFE.pdf) (brochure on OIDs)
+* [http://www.oid-info.com/](http://www.oid-info.com/) (Object Identifier (OID) Repository).
 
-In IDISS we follow this mode. In the future we hope to provide some machine learning tools to ease in use cases lacking highly qualified domain experts to assist the process of mapping. We propose a set of methods to automatically identify and extract algorithmic pseudo-codes and the sentences that convey related algorithmic metadata using a set of machine-learning techniques such as word vectorization to identify commonalities.
+In our initial release, we support only single edges between metadata elements but in the future, we'll allow n-to-m to support entirely generic designs.
 
-## Syntax / Encodings.
+In IDISS we follow this model. In the future, we hope to provide some machine learning tools to ease use cases lacking highly qualified domain experts to assist the process of mapping. We propose a set of methods to automatically identify and extract algorithmic pseudo-codes and the sentences that convey related algorithmic metadata using a set of machine-learning techniques such as word vectorization to identify commonalities.
 
-Although are targests are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands have been to provide validation: syntactical, consistentency and completeness checks.
+## Syntax / Encodings
+
+Although our targets are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands has been to provide validation: syntactical, consistency and completeness checks.
 
 Our **first milestone objective** has been the provide Minimum Viable Product (MVP) to interested parties.
 
@@ -42,17 +43,18 @@ With our MVP we want to show how domain experts are able to easily align their s
 
 ## Design (VSIX)
 
-The "semantic crosswalk editor" has been designed as Visual Studio Code extension.<IMG SRC="https://user-images.githubusercontent.com/408126/149361233-30279d28-280a-4bd3-b988-f314a0fd4cc3.png" height="35">
+The "semantic crosswalk editor" has been designed as Visual Studio Code extension.
+<IMG SRC="https://user-images.githubusercontent.com/408126/149361233-30279d28-280a-4bd3-b988-f314a0fd4cc3.png" height="35">
 
-Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS feturing syntax highlighting, intelligent code completion, snippets, code refactoring and embedded Git. 
+Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS featuring syntax highlighting, intelligent code completion, snippets, code refactoring and embedded Git.
 
-The platform was chosen to in great part to its great popularity. In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the most popular developer environment tool, with 70% of 82,000 respondents reporting that they use it.
+The platform was chosen in great part to its great popularity. In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the most popular developer environment tool, with 70% of 82,000 respondents reporting that they use it.
 
-The editor extension is composed of two parts: a language server extension and a client extention. The server uses the Language Server Protocol (LSP), a common protocol based upon JSON RPC v2.0. It us used to provide language service features to various code editors-- and not just Visual Stdio Code but also Emacs and a host of other editors.
-	
-Our client side is predominantely Typescript while our server (LSP) makes heavy use of Java.
+The editor extension is composed of two parts: a language server extension and a client extension. The server uses the Language Server Protocol (LSP), a common protocol based upon JSON RPC v2.0. It is used to provide language service features to various code editors and not just Visual Studio Code but also Emacs and a host of other editors.
 
-## High level Concept
+Our client-side is predominantly TypeScript while our server (LSP) makes heavy use of Java.
+
+## High-level Concept
 
 * [Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants](docs/Foss.md).
 * [Basics on the European e-Invoice Specification (EN16931)](docs/EN16931.md).
