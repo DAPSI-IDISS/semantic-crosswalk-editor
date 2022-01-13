@@ -26,7 +26,7 @@ The first ideas about interlingual machine translation appeared in the 17th cent
 
 In our initial release we support only single endges between metadata elements but in the future we'll allow n-to-m to support entirely generic designs.
 
-In IDISS we follow this mode. In the future we hope to provide some machine learning tools to ease in use cases lacking highly qualified domain experts to assist the process of mapping.
+In IDISS we follow this mode. In the future we hope to provide some machine learning tools to ease in use cases lacking highly qualified domain experts to assist the process of mapping. We propose a set of methods to automatically identify and extract algorithmic pseudo-codes and the sentences that convey related algorithmic metadata using a set of machine-learning techniques such as word vectorization to identify commonalities.
 
 ## Syntax / Encodings.
 
