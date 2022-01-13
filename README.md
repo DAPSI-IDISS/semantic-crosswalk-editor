@@ -44,11 +44,13 @@ With our MVP we want to show how domain experts are able to easily align their s
 
 The "semantic crosswalk editor" has been designed as Visual Studio Code extension.<IMG SRC="https://user-images.githubusercontent.com/408126/149361233-30279d28-280a-4bd3-b988-f314a0fd4cc3.png" height="35">
 
-Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS feturing syntax highlighting, intelligent code completion, snippets, code refactoring and embedded Git.
+Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS feturing syntax highlighting, intelligent code completion, snippets, code refactoring and embedded Git. 
 
 The platform was chosen to in great part to its great popularity. In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the most popular developer environment tool, with 70% of 82,000 respondents reporting that they use it.
 
-The editor extension is composed of two parts: a language server extension (LSP) and a client extention. Our client side is predominantely Typescript while our server makes heavy use of Java.
+The editor extension is composed of two parts: a language server extension and a client extention. The server uses the Language Server Protocol (LSP), a common protocol based upon JSON RPC v2.0. It us used to provide language service features to various code editors-- and not just Visual Stdio Code but also Emacs and a host of other editors.
+	
+Our client side is predominantely Typescript while our server (LSP) makes heavy use of Java.
 
 ## High level Concept
 
