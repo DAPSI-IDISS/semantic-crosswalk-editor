@@ -40,7 +40,7 @@ We have chosen for the initial "real-world" usage scenario of our tools, the tas
 
 With our MVP we want to show how domain experts are able to easily align their semantics - here given by the CEN technical committee 434 (EN16931-1) - with the related given syntax, in our showcase the e-procurement XML syntax Cross Industry Invoice (CII) defined by the UN/CEFACT.
 
-## Design
+## Design (VSIX)
 
 The "semantic crosswalk editor" has been designed as Visual Studio Code extension.<IMG SRC="https://user-images.githubusercontent.com/408126/149361233-30279d28-280a-4bd3-b988-f314a0fd4cc3.png" height="35">
 
