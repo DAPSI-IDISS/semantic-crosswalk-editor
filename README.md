@@ -4,7 +4,9 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 
 ## Overview
 
-The **purpose** of this project is to enhance the data portability of standards.
+The **purpose** of this project is to enhance the data portability of standards. 
+
+"I love standards there are so many to choose from" -- Marshall T. Rose.
 
 The focus of IDSS is to develop a suite of tools to assist cross metadata (semantic) translation for domain experts. In contrast to initiatives such as the "Semantic Web" we don't build up from a projected ontology as there is no single way to model a domain using an ontology. There is no global truth. Different stakeholders in the domain may consider different semantics for metadata or even hold contradictory claims. Often metadata is designed to be intentionally vague and open to widest range of interpretations and implementations-- see, for example, Dublin Core. The real-world is messy and filled with interoperability issues. In standardization we need to solve them beforehand through interlingua concensus constructed upon formal controlled vocabularies. These demand tools that are not the same as what people tried to develop for the "Semantic Web".. we use the data and some tools but don't follow their paradigm down the rabbit hole.
 
@@ -18,7 +20,7 @@ With an interlingua it becomes unnecessary to make a translation pair between ea
 
 ![image](https://user-images.githubusercontent.com/408126/149317225-d4a58f7c-c596-4da2-b97f-89d20af7d7f1.png)
 
-The first ideas about interlingual machine translation appeared in the 17th century with Descartes and Leibniz who came up with theories of how to create dictionaries using universal numerical codes.  This codes in our context is not much different from OIDs (Object IDs): an identifier mechanism standardized by the International Telecommunication Union (ITU) and ISO/IEC for naming any object, concept, or "thing" with a globally unambiguous persistent name.
+The first ideas about interlingual machine translation appeared in the 17th century with Descartes and Leibniz who came up with theories of how to create dictionaries using universal numerical codes.  These codes in our context are not much different from OIDs (Object IDs): an identifier mechanism standardized by the International Telecommunication Union (ITU) and ISO/IEC for naming any object, concept, or "thing" with a globally unambiguous persistent name. OIDs, formally defined by ITU X.660, are themselves managed by shareholder groups much like DNS domains with a given OID corresponding to a node in the "OID tree". 
 
 In our initial release we support only single endges between metadata elements but in the future we'll allow n-to-m to support entirely generic designs.
 
