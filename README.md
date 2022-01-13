@@ -48,7 +48,7 @@ Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux 
 
 The platform was chosen to in great part to its great popularity. In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the most popular developer environment tool, with 70% of 82,000 respondents reporting that they use it.
 
-The editor extension is composed of two parts: a language server extension (LSP) and a client extention. The client side is predominantely Typescript while the server makes heavy use of Java.
+The editor extension is composed of two parts: a language server extension (LSP) and a client extention. Our client side is predominantely Typescript while our server makes heavy use of Java.
 
 ## High level Concept
 
