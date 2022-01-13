@@ -5,11 +5,32 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 ## Overview
 
 The **purpose** of this project is to enhance the data portability of standards.
-Although in the end for any structured data we start with XML as syntax.
 
-Our **first milestone objective** is to provide within half a year a Minimum Viable Product (MVP) to interested parties.
+The focus of IDSS is to develop a suite of tools to assist semantic translation for domain experts. In contrast to initiatives such as the "Semantic Web" we don't build up from a projected ontology as there is no single way to model a domain using an ontology. There is no global truth. Different stakeholders in the domain may consider different semantics for metadata or even hold contradictory claims. Often metadata is designed to be intentionally vague and open to widest range of interpretations and implementations-- see, for example, Dublin Core. The real-world is messy and filled with interoperability issues. In standardization we need to solve them beforehand through interlingua concensus constructed upon formal controlled vocabularies. These demand tools that are not the same as what people tried to develop for the "Semantic Web".. we use the data and some tools but don't follow their paradigm down the rabbit hole.
 
-For the beginning, we have chosen the real-world scenario maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931) scenario.
+### Interginga Translation
+
+Interlingual machine translation is one of the classic approaches to machine translation. In this approach, the source language, i.e. the text to be translated is transformed into an interlingua, i.e., an abstract language-independent representation. The target language is then generated from the interlingua. Within the rule-based machine translation paradigm, the interlingual approach is an alternative to the direct approach and the transfer approach.
+
+In the direct approach, words are translated directly without passing through an additional representation. In the transfer approach the source language is transformed into an abstract, less language-specific representation. Linguistic rules which are specific to the language pair then transform the source language representation into an abstract target language representation and from this the target sentence is generated.
+
+With an interlingua it becomes unnecessary to make a translation pair between each pair of languages in the system. So instead of creating n ( n − 1 ) language pairs, where n is the number of languages in the system, it is only necessary to make 2 n  pairs between the n languages and the interlingua. 
+
+![image](https://user-images.githubusercontent.com/408126/149317225-d4a58f7c-c596-4da2-b97f-89d20af7d7f1.png)
+
+The first ideas about interlingual machine translation appeared in the 17th century with Descartes and Leibniz who came up with theories of how to create dictionaries using universal numerical codes.  This codes in our context is not much different from OIDs (Object IDs): an identifier mechanism standardized by the International Telecommunication Union (ITU) and ISO/IEC for naming any object, concept, or "thing" with a globally unambiguous persistent name.
+
+In our initial release we support only single endges between metadata elements but in the future we'll allow n-to-m to support entirely generic designs.
+
+In IDISS we follow this mode. In the future we hope to provide some machine learning tools to ease in use cases lacking highly qualified domain experts to assist the process of mapping.
+
+## Syntax / Encodings.
+
+Although are targests are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices.
+
+Our **first milestone objective** has been the provide Minimum Viable Product (MVP) to interested parties.
+
+We have chosen for the initial "real-world" usage scenario of our tools, the task of maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931).
 
 ![EU Syntax Binding](docs/images/EN16931-SyntaxBinding.png)
 
