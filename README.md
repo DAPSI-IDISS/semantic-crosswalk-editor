@@ -42,7 +42,7 @@ With our MVP we want to show how domain experts are able to easily align their s
 
 ## Design
 
-The "semantic crosswalk editor" has been designed as Visual Studio Code extension.
+The "semantic crosswalk editor" has been designed as Visual Studio Code extension.<IMG SRC="https://user-images.githubusercontent.com/408126/149361233-30279d28-280a-4bd3-b988-f314a0fd4cc3.png" height="35">
 
 Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS feturing syntax highlighting, intelligent code completion, snippets, code refactoring and embedded Git.
 
