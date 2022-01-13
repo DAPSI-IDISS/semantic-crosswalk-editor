@@ -20,7 +20,7 @@ With an interlingua it becomes unnecessary to make a translation pair between ea
 
 ![image](https://user-images.githubusercontent.com/408126/149317225-d4a58f7c-c596-4da2-b97f-89d20af7d7f1.png)
 
-The first ideas about interlingual machine translation appeared in the 17th century with Descartes and Leibniz who came up with theories of how to create dictionaries using universal numerical codes.  These codes in our context are not much different from OIDs (Object IDs): an identifier mechanism standardized by the International Telecommunication Union (ITU) and ISO/IEC for naming any object, concept, or "thing" with a globally unambiguous persistent name. OIDs, formally defined by ITU X.660, are themselves managed by shareholder groups much like DNS domains with a given OID corresponding to a node in the "OID tree". 
+The first ideas about interlingual machine translation appeared in the 17th century with Descartes and Leibniz who came up with theories of how to create dictionaries using universal numerical codes.  These codes in our context are not much different from OIDs (Object IDs): an identifier mechanism standardized by the International Telecommunication Union (ITU) and ISO/IEC for naming any object, concept, or "thing" with a globally unambiguous persistent name. OIDs, formally defined by ITU X.660, are themselves managed by shareholder groups much like DNS domains with a given OID corresponding to a node in the "OID tree". See: http://www.oid-info.com/ (Object Identifier (OID) Repository). 
 
 In our initial release we support only single endges between metadata elements but in the future we'll allow n-to-m to support entirely generic designs.
 
