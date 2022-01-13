@@ -28,7 +28,7 @@ In IDISS we follow this mode. In the future we hope to provide some machine lear
 
 ## Syntax / Encodings.
 
-Although are targests are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices.
+Although are targests are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands have been to provide validation: syntactical, consistentency and completeness checks.
 
 Our **first milestone objective** has been the provide Minimum Viable Product (MVP) to interested parties.
 
