@@ -17,3 +17,6 @@ the persistancy issue Ghana uses also now digital addresses.
 Digital addresses have the form CODE-XXX-XXX.
 
 Example: The address AK-039-5028 is for the Kumasi Main Post Office. In a deconstructed form, AK-039 is the postal code for the area, A refers to the region of the location (Ashanti Region), while K refers to the district (Kumasi District), 5028 
+
+
+![image](https://user-images.githubusercontent.com/408126/149522905-9b88f8d2-8cf3-4bd6-bd52-668d0271bbff.png)
