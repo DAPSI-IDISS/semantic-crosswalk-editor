@@ -5,7 +5,14 @@ Editor to improve Data Interoperability by bridging Standards using human-centri
 ## Overview
 
 The **purpose** of this project is to enhance the data portability of standards.
-Although in the end for any structured data we start with XML as syntax.
+
+Although our targets are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands has been to provide validation: syntactical, consistency and completeness checks.
+
+Our first objective has been to provide a Minimum Viable Product (MVP) to interested parties.
+
+We have chosen for the initial "real-world" usage scenario of our tools, the task of maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931).
+
+
 
 Our **first milestone objective** is to provide within half a year a Minimum Viable Product (MVP) to interested parties.
 
