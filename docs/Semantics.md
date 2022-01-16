@@ -33,6 +33,12 @@ The concept of ‘degrees of equivalency’ exemplifies one of the problems of m
 > * Incomplete correspondence: In only a few cases does the mapping work equally well in both directions, due to differences in granularity and community-specific practices (see number 2 above.) The large Getty metadata crosswalk19 was created by mapping in a single direction: CDWA was analyzed, and other data systems were mapped to its elements. However, there are some types of information recorded in MARC that are lost in this process; for example, the publisher and language elements are important in library records but are less relevant to CDWA.
 > * Differing structures: One metadata set may have a hierarchical structure with complex relationships while the other may have a flat file organization—EAD (hierarchical) versus MARC (flat), for example.
 
+## Hub and Spoke
+
+![image](https://user-images.githubusercontent.com/408126/149669171-c6952505-ede1-4ed6-bd91-b84ca937bf16.png)
+
+The hub and spoke model of semantic processing. The various different modality-specific surface representations correspond to motion (yellow), colors (dark blue), shape (green), names (orange), actions (light blue) and task (purple), and are directly connected via green lines. These all connect (shown as red lines) to a shared, amodal “hub” (shown as a red area) in the anterior temporal lobes. At the hub stage, therefore, associations between different pairs of attributes (such as shape and name, shape and action, or shape and color) are all processed by a common set of neurons and synapses, regardless of the task. Adapted from B of Patterson et al. (2007, p.977)
+
 ## The Messy Word
 
 ### Example: Address
