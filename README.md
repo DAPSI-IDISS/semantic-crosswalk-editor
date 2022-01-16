@@ -27,6 +27,9 @@ The first ideas about interlingual machine translation appeared in the 17th cent
 
 In our initial release, we support only single edges between metadata elements but in the future, we'll allow n-to-m to support entirely generic designs.
 
+> One of the problems of crosswalking is the different degrees of equivalency: one-to-one,
+one-to-many, many-to-one, and one-to-none … details may extend from elements-only to elements-plus-qualifiers/refinements or sub-elements. However, usually only the names of the elements and their definitions are taken into consideration in a crosswalk.” (Chan & Zeng, 2006)
+
 In IDISS we follow this model. In the future, we hope to provide some machine learning tools to ease use cases lacking highly qualified domain experts to assist the process of mapping. We propose a set of methods to automatically identify and extract algorithmic pseudo-codes and the sentences that convey related algorithmic metadata using a set of machine-learning techniques such as word vectorization to identify commonalities.
 
 ## Syntax / Encodings
