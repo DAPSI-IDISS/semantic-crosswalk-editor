@@ -12,13 +12,12 @@ contents are compliant with a target metadata standard." -- (St. Pierre & LaPlan
 one-to-many, many-to-one, and one-to-none … details may extend from elements-only to elements-plus-qualifiers/refinements or sub-elements. However, usually only the names of the elements and their definitions are taken into consideration in a crosswalk.” (Chan
 & Zeng, 2006) 
 
-This means that when mapping individual elements, often there are no exact equivalents.
+We also have issues of granularity and scope.
+
+> This means that when mapping individual elements, often there are no exact equivalents.
 Meanwhile, many elements are found to overlap in meaning and scope. For this reason, data conversion based on crosswalks could create quality problems. (Chan & Zeng, 2006)
 
-This discussion of ‘degrees of equivalency’ exemplifies one of the problems of mapping: the
-concept of equivalence is described in binary terms but then discussed in terms of levels or degrees of exactness. It is hard to translate this into data conversion algorithms that must make a yes/no decision about whether data can be effectively moved between elements ‘mapped’ to each
-other. This inability to effectively express a degree of exactness lies at the core of the ‘quality
-problems’ noted above.
+The concept of ‘degrees of equivalency’ exemplifies one of the problems of mapping: the concept of equivalence is described as a truth function (persistent to change in the light of knowledge) but then discussed in terms of fuzzy  levels or degrees of exactness. This inability to effectively express a degree of exactness and consider the nonmonotocity of knowledge lies at the core of the ‘quality problems’.
 
 
 ## The Messy Word
