@@ -1,3 +1,15 @@
+## Cross Walks
+
+
+> "A crosswalk is a set of transformations applied to the content of elements in a source
+metadata standard that result in the storage of appropriate modified content in the analogous elements of a target metadata standard. A complete or fully specified crosswalk
+consists of both a semantic mapping and a metadata conversion specification. The
+metadata conversion specification contains the transformations required to convert the
+metadata record content compliant to a source metadata standard into a record whose
+contents are compliant with a target metadata standard." -- (St. Pierre & LaPlant, 1998)
+
+
+
 ## The Messy Word
 
 ### Example: Address
