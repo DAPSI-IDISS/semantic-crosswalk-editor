@@ -1,4 +1,4 @@
-# Semantic-Crosswalk-Editor
+# Semantic-Crosswalk-Editor (SCE)
 
 Editor to improve Data Interoperability by bridging Standards using human-centric Semantics.
 
@@ -8,7 +8,7 @@ The **purpose** of this project is to enhance the data portability of standards.
 
 ***"I love standards there are so many to choose from" -- Marshall T. Rose.***
 
-The focus of IDSS is to develop a suite of tools to assist cross metadata (semantic) translation for domain experts. In contrast to initiatives such as the "Semantic Web", we don't build up from a projected ontology as there is no single way to model a domain using an ontology. There is no global truth. Different stakeholders in the domain may consider different semantics for metadata or even hold contradictory claims. Often metadata is designed to be intentionally vague and open to the widest range of interpretations and implementations-- see, for example, Dublin Core. The real world is messy and filled with interoperability issues. In standardization, we need to solve them beforehand through interlingua consensus constructed upon formally controlled vocabularies. These demand tools that are not the same as what people tried to develop for the "Semantic Web". we use the data and some tools but don't follow their paradigm down the rabbit hole.
+The focus of IDSS is to develop a suite of tools to assist cross metadata (semantic) translation for domain experts. In contrast to initiatives such as the "Semantic Web", we don't build up from a projected ontology as there is no single way to model a domain using an ontology. There is no global truth. Different stakeholders in the domain may consider different semantics for metadata or even hold contradictory claims. Often metadata is designed to be intentionally vague and open to the widest range of interpretations and implementations -- see, for example, Dublin Core. The real world is messy and filled with interoperability issues. In standardization, we need to solve them beforehand through interlingua consensus constructed upon formally controlled vocabularies. These demand tools that are not the same as what people tried to develop for the "Semantic Web". we use the data and some tools but don't follow their paradigm down the rabbit hole.
 
 ### Interlingual Translation
 
