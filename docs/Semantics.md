@@ -1,6 +1,6 @@
 # Semantic Data Transformation
 
-The general motivation of our has been (and is) to provide tooling to confront the complex and difficult problem of data schemea transformation as found in metadata and other related standards.
+The general motivation of our projecthas been (and is) to provide tooling to confront the complex and difficult problem of data schemea transformation as found in metadata and other related standards.
 
 From our perspectives they are all genres of data silos. They occur naturally over time, mirroring organizational structures. As each island (department, company, industry etc.) collects and stores its own data for its own purposes, it creates their own data silo.
 
