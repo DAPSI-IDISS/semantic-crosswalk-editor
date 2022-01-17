@@ -12,8 +12,8 @@ https://www.xml.com/articles/2021/06/20/using-github-collaborative-xml-publishin
 
 While Git/GitHub does well is store and version files it only views files as collections of lines. It does not understand "XML", "JSON", "ASN.1" or any other encoding or serialization. There is no validation inherent to Git/GitHub that ensures that any content submitted to it is well-formed, meaning that both good, valid DITA and malformed content are all the same to GitHub. That is where the IDISS editor enters the picture.
 
-## IDIS Editor as front end to Github
-The IDISS Editor is built on top of Microsoft's Visual Studio Code as an extension. <IMG SRC="https://user-images.githubusercontent.com/408126/149361233-30279d28-280a-4bd3-b988-f314a0fd4cc3.png" height="35">. Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS featuring syntax highlighting, intelligent code completion, snippets, code refactoring and embedded Git. 
+## IDIS Editor as front end to Github <IMG SRC="https://user-images.githubusercontent.com/408126/149361233-30279d28-280a-4bd3-b988-f314a0fd4cc3.png" height="35">
+The IDISS Editor is built on top of Microsoft's Visual Studio Code as an extension. . Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS featuring syntax highlighting, intelligent code completion, snippets, code refactoring and embedded Git. 
 
 The platform was chosen in great part to its great popularity. In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the most popular developer environment tool, with 70% of 82,000 respondents reporting that they use it.
 
