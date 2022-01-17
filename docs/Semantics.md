@@ -48,6 +48,15 @@ Great Britain uses the cubic meter measurement for oil instead of barrels.  A cu
 
 When crossing from one context to another it can get tricky. A case in point is the export of Canadian oil to the United State. Most of Canada's oil production is exported to the US. As in the UK, Canda measures oil in cubic metres. The nominal conversion factor is 1 cubic metre = 6.2898 oil barrels, but conversion is generally done by custody transfer meters on the border, since the volumes are specified at different temperatures, and the exact conversion factor depends on both density and temperature. Canadian companies operate internally and report to Canadian governments in cubic metres, but often convert to US barrels for the benefit of American investors and oil marketers.
 
+### Example: Date reporting
+
+In the "IATA Cargo-XML Messages Specification" common business rules for the reporting of dates are:
+
+> Dates and times in Cargo-IMP and Cargo-XML messages are given in the “local time” at the place at which the associated action occurs.UTC (Universal) Coordinated Time) is only used in the Cargo-IMP messages related to Embargos (FMB, FMC, FMX) where the Start of Embargo and End of Embargo are specified as Date (in UTC) and Time (in UTC).
+> -- IATA Cargo-XML Messages Specification September, 2016
+
+So to convert (note that IATA Cargo-XML base their work on CEFACT CC) one needs two bits of information from the document 1) where did the event occur 2) the local time and one needs to have a mapping from local time to UTC.. one needs to know about summer time and perhaps political changes to time zone.. North Korea changed their timezone for example.. On 30 April 2018, the Supreme People's Assembly of North Korea issued a decree about changing the time zone in North Korea as a further step in unifying Korea and eliminating differences between the South and North. The time zone change was applied at 23:30 on 4 May 2018 (UTC+08:30).
+
 ### Example: Address
 #### US Centric Approach
 #### Japanese Paradigm
