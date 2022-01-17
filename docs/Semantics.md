@@ -124,7 +124,7 @@ Tradutional museum and library systems, for example, don't readily map to includ
 
 # Solution
 
-IDISS sets to redefine and view the problem following a multi-dimensional context driven uniingual paradigm. This has demanded the development of a number of new utensils including an editor (built upon Visual Studio Code), translation (based on machine learning of entity-attribute relationships) and visualization tools.
+IDISS sets to redefine and view the problem following a multi-dimensional context driven uniingual paradigm. This has demanded the development of a number of new utensils including an editor (built upon Visual Studio Code), translation (based on a combination of machine learning of entity-attribute relationships and matching algorithms) and visualization tools.
 
 
 ![image](https://user-images.githubusercontent.com/408126/149775338-0b9d2982-b6fe-46d3-a9bb-0a50962fc589.png)
