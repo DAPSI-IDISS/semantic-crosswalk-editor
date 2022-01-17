@@ -21,4 +21,4 @@ The editor extension is composed of two parts: a language server extension and a
 
 Our client-side is predominantly TypeScript while our server (LSP) makes heavy use of Java.
 
-The editor provides a number of services including validation to Git.
+The editor provides a number of services including not just well-formed validation but also semantic validation/consistency to Git.
