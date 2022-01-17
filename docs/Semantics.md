@@ -2,15 +2,9 @@
 
 
 > "A crosswalk is a set of transformations applied to the content of elements in a source
-metadata standard that result in the storage of appropriate modified content in the analogous elements of a target metadata standard. A complete or fully specified crosswalk
-consists of both a semantic mapping and a metadata conversion specification. The
-metadata conversion specification contains the transformations required to convert the
-metadata record content compliant to a source metadata standard into a record whose
-contents are compliant with a target metadata standard." -- (St. Pierre & LaPlant, 1998)
+metadata standard that result in the storage of appropriate modified content in the analogous elements of a target metadata standard. A complete or fully specified crosswalk consists of both a semantic mapping and a metadata conversion specification. The metadata conversion specification contains the transformations required to convert the metadata record content compliant to a source metadata standard into a record whose contents are compliant with a target metadata standard." -- (St. Pierre & LaPlant, 1998)
 
-> One of the problems of crosswalking is the different degrees of equivalency: one-to-one,
-one-to-many, many-to-one, and one-to-none … details may extend from elements-only to elements-plus-qualifiers/refinements or sub-elements. However, usually only the names of the elements and their definitions are taken into consideration in a crosswalk.” (Chan
-& Zeng, 2006) 
+> One of the problems of crosswalking is the different degrees of equivalency: one-to-one, one-to-many, many-to-one, and one-to-none … details may extend from elements-only to elements-plus-qualifiers/refinements or sub-elements. However, usually only the names of the elements and their definitions are taken into consideration in a crosswalk.” (Chan & Zeng, 2006) 
 
 We also have issues of granularity and scope.
 
@@ -36,6 +30,12 @@ The concept of ‘degrees of equivalency’ exemplifies one of the problems of m
 
 
 ## The Messy Word
+
+In above we spoke of issues of granularity and scope or context. This is particilarly found in many items where one, given cultural bias, least expects them. A case in point are weights and measures and addresses
+
+### Example: Weights and measure: barrels
+One would think with S.I. units any problems with weight and measure translation would be a trivial conversion. It, unfortunately, is not. Throughout the world we have, for example, something called a 55 gallon barrel. 
+
 
 ### Example: Address
 #### US Centric Approach
