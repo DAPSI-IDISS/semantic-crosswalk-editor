@@ -87,16 +87,15 @@ The Japanese addressing system is used to identify a specific location in Japan.
 
 Although house numbering is the principal identification scheme in many parts of the world, it is also common for houses in the United Kingdom and Ireland to be identified by name, rather than number, especially in villages. In these cases, the street name will usually follow the house name. Such an address might read: "Smith Cottage, Frog Lane, Barchester, Barsetshire, BZ9 9BA" or "Dunroamin, Emo, Co. Laois, Ireland" (fictional examples).
 
-#### Addresses in United Arab Emirates
-In the United Arab Emirates, Emirates Post Group recommends the following format:
+#### Addresses in United Arab Emirates and Qatar
 
 Name of addressee
 
 P.O. Box number
 
-Name of the Emirate
+Name of the Emirate (resp. Qatar)
 
-Not all of the roads and buildings in the UAE are numbered consistently and no postal codes are used in the United Arab Emirates. All mail are delivered only to PO boxes in the United Arab Emirates.
+Not all of the roads and buildings in the UAE and Qatar are numbered consistently and no postal codes are used. All mail are delivered only to PO boxes.
 
 Addresses to physical buildings is ofen given using landmarks.
 
