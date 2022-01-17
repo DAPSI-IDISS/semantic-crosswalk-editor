@@ -129,3 +129,25 @@ IDISS sets to redefine and view the problem following a multi-dimensional contex
 
 ![image](https://user-images.githubusercontent.com/408126/149775338-0b9d2982-b6fe-46d3-a9bb-0a50962fc589.png)
 
+
+### Interlingual Translation
+
+Interlingual machine translation is one of the classic approaches to machine translation. In this approach, the source language, i.e. the text to be translated is transformed into an interlingua, i.e., an abstract language-independent representation. The target language is then generated from the interlingua. Within the rule-based machine translation paradigm, the interlingual approach is an alternative to the direct approach and the transfer approach.
+
+In the direct approach, words are translated directly without passing through an additional representation. In the transfer approach, the source language is transformed into an abstract, less language-specific representation. Linguistic rules which are specific to the language pair then transform the source language representation into an abstract target language representation and from this, the target sentence is generated.
+
+With an interlingua, it becomes unnecessary to make a translation pair between each pair of languages in the system. So instead of creating n ( n − 1 ) language pairs, where n is the number of languages in the system, it is only necessary to make 2 n  pairs between the n languages and the interlingua.
+
+![image](https://user-images.githubusercontent.com/408126/149317225-d4a58f7c-c596-4da2-b97f-89d20af7d7f1.png)
+
+The first ideas about interlingual machine translation appeared in the 17th century with Descartes and Leibniz who came up with theories of how to create dictionaries using universal numerical codes.  These codes in our context are not much different from OIDs (Object IDs): an identifier mechanism standardized by the International Telecommunication Union (ITU) and ISO/IEC for naming any object, concept, or "thing" with a globally unambiguous persistent name. OIDs, formally defined by ITU X.660, are themselves managed by shareholder groups much like DNS domains with a given OID corresponding to a node in the "OID tree". See:
+
+* [https://www.itu.int/dms_pub/itu-t/oth/0B/04/T0B040000482C01PDFE.pdf](https://www.itu.int/dms_pub/itu-t/oth/0B/04/T0B040000482C01PDFE.pdf) (brochure on OIDs)
+* [http://www.oid-info.com/](http://www.oid-info.com/) (Object Identifier (OID) Repository).
+
+
+In IDISS we follow this model. In the future, we hope to provide some machine learning tools to ease use cases lacking highly qualified domain experts to assist the process of mapping. We propose a set of methods to automatically identify and extract algorithmic pseudo-codes and the sentences that convey related algorithmic metadata using a set of machine-learning techniques such as word vectorization to identify commonalities.
+
+
+
+
