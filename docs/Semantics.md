@@ -38,7 +38,7 @@ One would think with S.I. units any problems with weight and measure translation
 
 We also have "Petroleum barrels” which contain a liquid measure equal to 42 US gallons (35 imperial gallons or 159 L); about 7.2 barrels oil are equivalent to 1 tonne oil (metric) = 42–45 GJ.
 
-OK. Still sounds fine. But the measurement bassis itself can be different. 
+OK. Still sounds fine (within ±5%). But the measurement bassis itself can be different. 
 
 Discovering the dimensions of a 55 gallon drum means understanding that dimensions are different depending on the conditions such as if you have a 55 gallon plastic drum versus a 55 gallon steel drum. Check out the “Specs” section on individual product pages to see exact measurements of various 55 gallon drums. Different vendors also have slightly different volumes for their barrels.
 
