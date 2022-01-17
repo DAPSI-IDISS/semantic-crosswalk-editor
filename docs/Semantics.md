@@ -34,8 +34,19 @@ The concept of ‘degrees of equivalency’ exemplifies one of the problems of m
 In above we spoke of issues of granularity and scope or context. This is particilarly found in many items where one, given cultural bias, least expects them. A case in point are weights and measures and addresses
 
 ### Example: Weights and measure: barrels
-One would think with S.I. units any problems with weight and measure translation would be a trivial conversion. It, unfortunately, is not. Throughout the world we have, for example, something called a 55 gallon barrel. 
+One would think with S.I. units any problems with weight and measure translation would be a trivial conversion. It, unfortunately, is not. Throughout the world we have, for example, something called a "barrel". This cylindrical container is called also a 200-litre drum (known also as a 55-gallon drum in the United States and a 44-gallon drum in the United Kingdom) and has a nominal capacity of 200 litres (55 US or 44 imp gal). Now 55 US. Gallons is 208.198 liters and 44 Imperial Gallons is 200.28 liters. 
 
+We also have "Petroleum barrels” which contain a liquid measure equal to 42 US gallons (35 imperial gallons or 159 L); about 7.2 barrels oil are equivalent to 1 tonne oil (metric) = 42–45 GJ.
+
+OK. Still sounds fine. But the measurement bassis itself can be different. 
+
+Discovering the dimensions of a 55 gallon drum means understanding that dimensions are different depending on the conditions such as if you have a 55 gallon plastic drum versus a 55 gallon steel drum. Check out the “Specs” section on individual product pages to see exact measurements of various 55 gallon drums. Different vendors also have slightly different volumes for their barrels.
+
+Although crude oil is sometimes shipped in 55-US-gallon drums, the measurement standard of oil in barrels is based on the whiskey containers of the 1870s that measured 42 US gallons (35 imp gal; 159 L). The measure of 42 US or wine gallons corresponds to a wine tierce (third-pipe). A wine barrel, or 1⁄8 tun, measures 31.5 US gallons (26.2 imp gal; 119.2 L).
+
+Great Britain uses the cubic meter measurement for oil instead of barrels.  A cubic meter of oil is about 6.2897 barrels of 42 U.S. gallons.  Another weight or measurement that is sometimes used for oil is the tonne which is equivalent to a metric ton or 1.1 short tons.  An imperial gallon (Great Britain, Canada etc.) is 1.2 gallons U.S.
+
+When crossing from one context to another it can get tricky. A case in point is the export of Canadian oil to the United State. Most of Canada's oil production is exported to the US. The nominal conversion factor is 1 cubic metre = 6.2898 oil barrels, but conversion is generally done by custody transfer meters on the border, since the volumes are specified at different temperatures, and the exact conversion factor depends on both density and temperature. Canadian companies operate internally and report to Canadian governments in cubic metres, but often convert to US barrels for the benefit of American investors and oil marketers.
 
 ### Example: Address
 #### US Centric Approach
