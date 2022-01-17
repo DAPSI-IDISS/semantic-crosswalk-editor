@@ -1,5 +1,14 @@
-## Cross Walks
+# Semantic Data Transformation
 
+The general motivation of our has been (and is) to provide tooling to confront the complex and difficult problem of data schemea transformation as found in metadata and other related standards.
+
+From our perspectives they are all genres of data silos. They occur naturally over time, mirroring organizational structures. As each island (department, company, industry etc.) collects and stores its own data for its own purposes, it creates their own data silo.
+
+This is an important task for not just memory institutions (such as libraries and archives), businesses (needing to interface with external standards such as electronic invoices, messaging etc.) but also for data warehousing projects where one needs, resp. want, to unify data towards improved data quality and a number of side benefits such as collaboration and cost reduction. 
+
+Since these "silos" occur over time and tend to be built on internal cultural or local models they often don't quite map to a bigger picture. 
+
+## Cross Walks
 
 > "A crosswalk is a set of transformations applied to the content of elements in a source
 metadata standard that result in the storage of appropriate modified content in the analogous elements of a target metadata standard. A complete or fully specified crosswalk consists of both a semantic mapping and a metadata conversion specification. The metadata conversion specification contains the transformations required to convert the metadata record content compliant to a source metadata standard into a record whose contents are compliant with a target metadata standard." -- (St. Pierre & LaPlant, 1998)
@@ -55,6 +64,8 @@ In the "IATA Cargo-XML Messages Specification" common business rules for the rep
 > Dates and times in Cargo-IMP and Cargo-XML messages are given in the “local time” at the place at which the associated action occurs.UTC (Universal) Coordinated Time) is only used in the Cargo-IMP messages related to Embargos (FMB, FMC, FMX) where the Start of Embargo and End of Embargo are specified as Date (in UTC) and Time (in UTC).
 > -- IATA Cargo-XML Messages Specification September, 2016
 
+Cargo-XML messages are used for electronic communication between airlines and other air cargo supply chain stakeholders, such as shippers, freight forwarders, ground-handling agents, and regulators, as well as customs and security agencies.
+
 So to convert (note that IATA Cargo-XML base their work on CEFACT CC) one needs two bits of information from the document 1) where did the event occur 2) the local time and one needs to have a mapping from local time to UTC.. one needs to know about summer time and perhaps political changes to time zone.. North Korea changed their timezone for example.. On 30 April 2018, the Supreme People's Assembly of North Korea issued a decree about changing the time zone in North Korea as a further step in unifying Korea and eliminating differences between the South and North. The time zone change was applied at 23:30 on 4 May 2018 (UTC+08:30).
 
 ### Example: Address
@@ -77,3 +88,12 @@ Example: The address AK-039-5028 is for the Kumasi Main Post Office. In a decons
 
 
 ![image](https://user-images.githubusercontent.com/408126/149522905-9b88f8d2-8cf3-4bd6-bd52-668d0271bbff.png)
+
+## Digital Assets
+
+NFTs have during this Covid19 pandemic become quite a senstation with record prices being paid. The most expensive piece, The Merge by Pak sold for $91.8 million
+Tradutional museum and library systems, for example, don't readily map to include NFTS as they present challenges on logistics of ownership, exchange, resp. transmutability, and persistance.
+
+# Solution
+
+IDISS sets to redefine and view the problem following a multi-dimensional context driven uniingual paradigm. This has demanded the development of a number of new utensils including an editor (built upon Visual Studio Code), translation (based on machine learning of entity-attribute relationships) and visualization tools.
