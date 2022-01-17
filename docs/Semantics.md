@@ -31,7 +31,7 @@ The concept of ‘degrees of equivalency’ exemplifies one of the problems of m
 
 ## The Messy Word
 
-In above we spoke of issues of granularity and scope or context. This is particilarly found in many items where one, given cultural bias, least expects them. A case in point are weights and measures and addresses
+In above we spoke of issues of granularity and scope or context. This is particularly found in many items where one, given cultural bias, least expects them. A case in point are weights and measures and addresses
 
 ### Example: Weights and measure: barrels
 One would think with S.I. units any problems with weight and measure translation would be a trivial conversion. It, unfortunately, is not. Throughout the world we have, for example, something called a "barrel". This cylindrical container is called also a 200-litre drum (known also as a 55-gallon drum in the United States and a 44-gallon drum in the United Kingdom) and has a nominal capacity of 200 litres (55 US or 44 imp gal). Now 55 US. Gallons is 208.198 liters and 44 Imperial Gallons is 200.28 liters. 
