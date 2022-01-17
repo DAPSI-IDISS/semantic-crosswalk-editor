@@ -70,8 +70,22 @@ So to convert (note that IATA Cargo-XML base their work on CEFACT CC) one needs 
 
 ### Example: Address
 #### US Centric Approach
-#### Japanese Paradigm
+
+Name of addressee
+
+House number and street name + Apartment/Suite/Room number (if any)
+
+Name of town + State abbreviation + Postal code (ZIP code)
+
+There is sometimes a difference between postal address and address. In rural areas there might historically not been street addresses so with the expansion of postal services the RFD system was introduced.. The street line might be something like "RR 9 BOX 19-1A" (a "rural route", previously RFD or RD "rural delivery") "HC 68 BOX 23A" for "highway contract" routes (formerly "star routes") The physical street address may appear in the line above the "RR" line without hindering delivery.
+
+#### Japanese Paradigm (Cho-me)
+The Japanese addressing system is used to identify a specific location in Japan. A majority of streets in Japan have no names except for main streets, express ways and toll roads, whence the system can't be mapped to the street/number/apt paradigm. When written in Japanese characters, addresses start with the largest geographical entity and proceed to the most specific one. When written in Latin characters, addresses follow the convention used by most Western addresses and start with the smallest geographic entity (typically a house number) and proceed to the largest. The Japanese system is complex and idiosyncratic, the product of the natural growth of urban areas, as opposed to the systems used in cities that are laid out as grids and divided into quadrants or districts.
+
+
 #### Addresses in UK and Ireland
+
+
 #### Addresses without names?
 
 In Ghana, finding your way around can be a challeng since properties often don't have a house number or name and street signs are rarely visible,
