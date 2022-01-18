@@ -17,7 +17,8 @@ With our MVP we want to show how domain experts are able to easily align their s
 (click on above image for interactive display)
 
 (click on the following two images to view a zoomable graphic-- SVG)
-![](./images/rdf-grapher-01.svg)
+	
+<A HREF="./images/rdf-grapher-01.svg"><IMG SRC="./images/rdf-grapher-01.svg"></A>
 
 ![Invoice Module](./images/rdf-grapher-invoice-module.svg)
 
