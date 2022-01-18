@@ -20,7 +20,7 @@ We have chosen for the initial "real-world" usage scenario of our tools, the tas
 * [Basics on the European e-Invoice Specification (EN16931)](EN16931.md).
 
 ## Case Studies
-* [MVP Example](Examples.md).
+* [MVP Example](Example.md).
 
 ## User Documentation
 
