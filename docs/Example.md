@@ -13,6 +13,8 @@ With our MVP we want to show how domain experts are able to easily align their s
 ### Sample Ontology Data
 https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/sample-data/p2p-o%20WIP%20ontology%20files
 
+
+![image](https://user-images.githubusercontent.com/408126/149954885-85116f5e-8cb4-421f-99bd-d30f274e3dfc.png)
 http://shorturl.at/uxD48
 
 
