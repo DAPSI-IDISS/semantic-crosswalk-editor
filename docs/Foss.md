@@ -5,7 +5,7 @@
 ### SQL Lite
 SQLite is a relational database management system contained in a C library. In contrast to many other database management systems, SQLite is not a client–server database engine. Rather, it is embedded into the end program. https://www.sqlite.org/index.html
 
-### Protoge
+### Protégé
 Protégé provides a graphic user interface to define ontologies. It also includes deductive classifiers to validate that models are consistent and to infer new information based on the analysis of an ontology. https://protege.stanford.edu/
 
 
