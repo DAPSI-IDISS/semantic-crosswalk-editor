@@ -116,3 +116,9 @@ The Outline View also offers the option to sort the list by name or category whi
 * [XML Features](https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs/Features/XMLFeatures.md)
 * [XSD Features](https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs/Features/XSDFeatures.md)
 * [DTD Features](https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/docs/Features/DTDFeatures.md)
+
+## Ontology Matcher
+
+Its evolving functionality including a number of algorithms to try to identify semantic correspondences between metadata structures to assist in the task of creating (or maintaining as in the case for UN/CEFACT) integrated Schemas.
+* [Semantics](Semantics.md)
+
