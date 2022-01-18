@@ -1,6 +1,8 @@
 # Features
 
-As previous mentioned the IDISS tool ensemble and editor are not designed solely for XML but in the first stage implented with a focus on XML given its the Linguafranca of many of the standards we explore with the tools in its intial MVP phase.
+As previously mentioned the IDISS tool ensemble and editor are not designed solely for XML but in the first stage implented with a focus on XML given its the Linguafranca of many of the standards we explore with the tools in its intial MVP phase.
+
+While our targets are generic metadata standards and we don't care about the encoding but as XML is the (syntax) language in our initial study cases, especially electronic invoices, we could not ignore XML and its baggage. JSON was not an alternative. So part of our functionality demands has been to provide validation: syntactical, consistency and completeness checks.
 
 ## Semantic & XML View
 
