@@ -19,6 +19,9 @@ We have chosen for the initial "real-world" usage scenario of our tools, the tas
 * [Versioning](Versioning.md). 
 * [Basics on the European e-Invoice Specification (EN16931)](EN16931.md).
 
+## Case Studies
+* [MVP Example](Examples.md).
+
 ## User Documentation
 
 * [Getting Started](GettingStarted.md): How to install the Semantic Crosswalk Editor and get started with Syntax Bindings.
