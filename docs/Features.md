@@ -1,5 +1,7 @@
 # Features
 
+As previous mentioned the IDISS tool ensemble and editor are not designed solely for XML but in the first stage implented with a focus on XML given its the Linguafranca of many of the standards we explore with the tools in its intial MVP phase.
+
 ## Semantic & XML View
 
 The Semantic and XML View provides the core features for quickly searching through the available elements and existing mappings, and for easily creating new syntax mappings.
