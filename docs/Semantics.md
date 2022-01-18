@@ -146,7 +146,8 @@ The first ideas about interlingual machine translation appeared in the 17th cent
 * [http://www.oid-info.com/](http://www.oid-info.com/) (Object Identifier (OID) Repository).
 
 
-In IDISS we follow this model. In the future, we hope to provide some machine learning tools to ease use cases lacking highly qualified domain experts to assist the process of mapping. We propose a set of methods to automatically identify and extract algorithmic pseudo-codes and the sentences that convey related algorithmic metadata using a set of machine-learning techniques such as word vectorization to identify commonalities.
+## Matching, ML and beyond
+In IDISS we follow an Interlingual paradigm and our tools are designed to assist in the creation, visualization and maintanance of models. In the future, we hope to provide some machine learning tools to ease use cases lacking highly qualified domain experts to assist the process of mapping. We propose a set of methods to automatically identify and extract algorithmic pseudo-codes and the sentences that convey related algorithmic metadata using a set of machine-learning techniques such as word vectorization to identify commonalities.
 
 
 
