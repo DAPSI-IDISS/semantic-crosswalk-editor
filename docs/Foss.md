@@ -2,9 +2,6 @@
 
 ## Software Design and Architecture
 
-### Java
-For many components we use Java and its many libraries and infrastructure.
-
 ### Ontobase
 OntoBase is a knowledge acquisition tool that simplifies data retrieval and manipulation over distributed databases. Built on Protégé knowledge editor it is a plug-in that turns Protégé into a simple database application. Users can compose new queries and editable forms from multiple tables and databases. OntoBase can be connected to any relational database- providing instant access to data, virtually without any programming. https://code.google.com/archive/p/ontobase/
 
