@@ -2,8 +2,11 @@
 
 ## Software Design and Architecture
 
-### SQL Lite
-SQLite is a relational database management system contained in a C library. In contrast to many other database management systems, SQLite is not a client–server database engine. Rather, it is embedded into the end program. https://www.sqlite.org/index.html
+### Java
+For many components we use Java and its many libraries and infrastructure.
+
+### Ontobase
+OntoBase is a knowledge acquisition tool that simplifies data retrieval and manipulation over distributed databases. Built on Protégé knowledge editor it is a plug-in that turns Protégé into a simple database application. Users can compose new queries and editable forms from multiple tables and databases. OntoBase can be connected to any relational database- providing instant access to data, virtually without any programming. https://code.google.com/archive/p/ontobase/
 
 ### Protégé
 Protégé provides a graphic user interface to define ontologies. It also includes deductive classifiers to validate that models are consistent and to infer new information based on the analysis of an ontology. https://protege.stanford.edu/
