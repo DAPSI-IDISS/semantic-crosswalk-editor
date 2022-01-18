@@ -12,7 +12,7 @@ With our MVP we want to show how domain experts are able to easily align their s
 
 ### Sample Ontology Data
 
-<A HREF=" http://shorturl.at/uxD48"><IMG SRC="https://user-images.githubusercontent.com/408126/149954885-85116f5e-8cb4-421f-99bd-d30f274e3dfc.png"></A>
+<A HREF="http://shorturl.at/uxD48"><IMG SRC="https://user-images.githubusercontent.com/408126/149954885-85116f5e-8cb4-421f-99bd-d30f274e3dfc.png"></A>
 
 (click on above image for interactive display)
 
