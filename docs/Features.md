@@ -1,4 +1,4 @@
-# Features
+# Editor Features
 
 As previously mentioned the IDISS tool ensemble and editor are not designed solely for XML but in the first stage implented with a focus on XML given its the Linguafranca of many of the standards we explore with the tools in its intial MVP phase.
 
