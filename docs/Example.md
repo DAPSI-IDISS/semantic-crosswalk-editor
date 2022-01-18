@@ -10,7 +10,7 @@ We have chosen for the initial "real-world" usage scenario of our tools, the tas
 
 With our MVP we want to show how domain experts are able to easily align their semantics - here given by the CEN technical committee 434 (EN16931-1) - with the related given syntax, in our showcase the e-procurement XML syntax Cross Industry Invoice (CII) defined by the UN/CEFACT.
 
-Note: the term "syntax-binding" is relatively unique to UN/CEFACT and OASIS UBL. It is intended to define a "binding"-- a bond-- between syntacical elements. Its underlying notion derived by the misplaced and naive notion that the syntactical elements bound have semantic equivalency. This is implicitly, from a database perspetive, a schema crosswalk. The term semantic crosswalk, by contrast, as widely used by library scientists has a more explicitly viewed as a semantic mapping between the elements of two metadata standards, facilitating interoperability. In IDISS we focus on "semantic crosswalks" even when we speak of "syntax-bindings" as to not confuse people working in the area.
+Note: the term "syntax-binding" is relatively unique to UN/CEFACT and OASIS UBL. It is intended to define a "binding"-- a bond-- between syntacical elements. Its underlying notion derived by the misplaced and naive notion that the syntactical elements bound have semantic equivalency. This is implicitly, from a database perspetive, a schema crosswalk. The term semantic crosswalk, by contrast, as widely used by library scientists has a more explicit concern for semantics to facilitate interoperability between (meta)data standards. In IDISS we focus on "semantic crosswalks" even when we speak of "syntax-bindings" as to not confuse people working in the area.
 
 
 ![](./images/sample_default_workspace.png)
