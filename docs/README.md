@@ -15,6 +15,10 @@ We have chosen for the initial "real-world" usage scenario of our tools, the tas
 ## High level Concept
 
 * [Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants](Foss.md).
+* [Semantics](Semantics.md).
+* [Features](Features.md).
+* [Versioning](Versioning.md). 
+
 * [Basics on the European e-Invoice Specification (EN16931)](EN16931.md).
 
 ## User Documentation
