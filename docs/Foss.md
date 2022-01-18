@@ -1,4 +1,4 @@
-# Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants
+# Reused Free Open Source Software (FOSS) Modules
 
 ## Software Design and Architecture
 
