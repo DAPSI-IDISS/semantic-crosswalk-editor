@@ -56,7 +56,10 @@ The platform was chosen in great part to its great popularity. In the Stack Over
 The editor extension is composed of two parts: a language server extension and a client extension. The server uses the Language Server Protocol (LSP), a common protocol based upon JSON RPC v2.0. It is used to provide language service features to various code editors and not just Visual Studio Code but also Emacs and a host of other editors.
 
 Our client-side is predominantly TypeScript while our server (LSP) makes heavy use of Java.
-
+	
+### Versioning
+Version control is the only reasonable way to keep track of changes in code, manuscripts, presentations, and data analysis projects. We use git. Visual Studio Code as a development basis for editiing tools convientiently provides a Git inferface out-of-the-box. The missing functionality (such as validation) are provided by our extension.
+	
 ## High-level Concept
 
 * [Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants](docs/Foss.md).
