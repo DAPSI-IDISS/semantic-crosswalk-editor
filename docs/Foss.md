@@ -4,6 +4,8 @@
 
 
 ### Protoge
+Protégé provides a graphic user interface to define ontologies. It also includes deductive classifiers to validate that models are consistent and to infer new information based on the analysis of an ontology. https://protege.stanford.edu/
+
 
 ### WebOwl
 
