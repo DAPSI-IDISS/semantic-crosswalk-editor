@@ -14,3 +14,7 @@ With our MVP we want to show how domain experts are able to easily align their s
 https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/sample-data/p2p-o%20WIP%20ontology%20files
 
 ![](./images/rdf-grapher-01.svg)
+
+![Invoice Module](./images/rdf-grapher-invoice-module.svg)
+
+
