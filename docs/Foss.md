@@ -2,9 +2,17 @@
 
 ## Software Design and Architecture
 
-![Software Design](images/architecture_design.jpeg)
 
-## Summary
+### Protoge
+
+### WebOwl
+
+"WebVOWL is a web application for the interactive visualization of ontologies. It implements the Visual Notation for OWL Ontologies (VOWL) by providing graphical depictions for elements of the Web Ontology Language (OWL) that are combined to a force-directed graph layout representing the ontology. Interaction techniques allow to explore the ontology and to customize the visualization. The VOWL visualizations are automatically generated from JSON files into which the ontologies need to be converted. A Java-based OWL2VOWL converter is provided along with WebVOWL. "
+http://vowl.visualdataweb.org/webvowl.html
+
+### Visual Studio
+
+![Software Design](images/architecture_design.jpeg)
 
 To be able to create such a helpful application within 9 months we did not reinvent the wheel, but instead stood upon the shoulders of the following giants:
 
