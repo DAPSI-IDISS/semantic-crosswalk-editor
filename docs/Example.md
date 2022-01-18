@@ -20,4 +20,4 @@ With our MVP we want to show how domain experts are able to easily align their s
 	
 <A HREF="https://raw.githubusercontent.com/DAPSI-IDISS/semantic-crosswalk-editor/IDISS/docs/images/rdf-grapher-01.svg"><IMG SRC="./images/rdf-grapher-01.svg"></A>
 
-<A HREF="https://raw.githubusercontent.com/DAPSI-IDISS/semantic-crosswalk-editor/IDISS/docs/images/rdf-grapher-invoice-module.svg">>IMG SRC="./images/rdf-grapher-invoice-module.svg"></A>
+<A HREF="https://raw.githubusercontent.com/DAPSI-IDISS/semantic-crosswalk-editor/IDISS/docs/images/rdf-grapher-invoice-module.svg"><IMG SRC="./images/rdf-grapher-invoice-module.svg"></A>
