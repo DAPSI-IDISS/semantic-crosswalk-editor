@@ -11,8 +11,6 @@ We have chosen for the initial "real-world" usage scenario of our tools, the tas
 With our MVP we want to show how domain experts are able to easily align their semantics - here given by the CEN technical committee 434 (EN16931-1) - with the related given syntax, in our showcase the e-procurement XML syntax Cross Industry Invoice (CII) defined by the UN/CEFACT.
 
 ### Sample Ontology Data
-https://github.com/DAPSI-IDISS/vscode-xml/tree/IDISS/sample-data/p2p-o%20WIP%20ontology%20files
-
 
 ![image](https://user-images.githubusercontent.com/408126/149954885-85116f5e-8cb4-421f-99bd-d30f274e3dfc.png)
 http://shorturl.at/uxD48
