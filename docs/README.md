@@ -14,6 +14,7 @@ Since these "silos" occur over time and tend to be built on internal cultural or
 
 Follwing this, the initial focus of IDSS has been to develop a suite of tools to assist cross metadata (semantic) translation for domain experts. In contrast to initiatives such as the "Semantic Web", we don't build up from a projected ontology as there is no single way to model a domain using an ontology. There is no global truth. Different stakeholders in the domain may consider different semantics for metadata or even hold contradictory claims. Often metadata is designed to be intentionally vague and open to the widest range of interpretations and implementations -- see, for example, Dublin Core. The real world is messy and filled with interoperability issues. In standardization, we need to solve them beforehand through interlingua consensus constructed upon formally controlled vocabularies. These demand tools that are not the same as what people tried to develop for the "Semantic Web". we use the data and some tools but don't follow their paradigm down the rabbit hole.
 
+
 ## Overview
 
 The **purpose** of this tool is to mainly handle editing, maintaintance, validation and versioning.
