@@ -3,9 +3,10 @@
 ## Installation
 
 1. Download and install [Microsoft Visual Studio Code](https://code.visualstudio.com/) (hereinafter referred to as VS Code)
-1. Download the latest release of the [Semantic-Crosswalk-Editor Extension](https://github.com/DAPSI-IDISS/semantic-crosswalk-editor/releases/tag/v0.18.1) (Assets ➜ VSIX file)
-1. Launch VS Code  
-1. Go to Extensions in the Activity Bar (`Ctrl+Shift+X`)  
+2. Download and install a Java Runtime Environment. For instance from [Oracle](https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB) or [OpenJDK](https://openjdk.java.net/install/). Best practise is to intall one of the two Long-Term-Support (LTS) versions Java 11 or 17.
+3. Download the latest release of the [Semantic-Crosswalk-Editor Extension](https://github.com/DAPSI-IDISS/semantic-crosswalk-editor/releases/tag/v0.18.1) (Assets ➜ VSIX file)
+4. Launch VS Code  
+5. Go to Extensions in the Activity Bar (`Ctrl+Shift+X`)  
 ![ Welcome ](./images/welcome.png)
 1. Select the **[...]** menu at the top and **Install from VSIX...**  
 ![ Install Extension ](./images/install_extension_user.png)
