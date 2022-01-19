@@ -22,6 +22,8 @@ One of the initial core tools is the semantic-crosswalk-editor. The **purpose** 
 
 Although our targets are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands has been to provide validation: syntactical, consistency and completeness checks.
 
+For managing ontologies we current build upon a number of existing open source tools, especially Protégé: See [Re-used Open Source Modules](./docs/Foss.md)
+
 Our first objective has been to provide a Minimum Viable Product (MVP) to interested parties.
 
 We have chosen for the initial "real-world" usage scenario of our tools, the task of maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931).
