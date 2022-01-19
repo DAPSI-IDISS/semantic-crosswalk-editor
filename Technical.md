@@ -28,15 +28,15 @@ We have chosen for the initial "real-world" usage scenario of our tools, the tas
 
 ## Overviews
 
-* [Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants](./Docs/Foss.md).
-* [Semantic Data Transformation](./Docs/Semantics.md).
-* [Versioning](./Docs/Versioning.md). 
-* [Workflow: Using the tooling](./Docs/Workflow.md)
-* [Best Practices](./Docs/BestPractices.md)
-* [Basics on the European e-Invoice Specification (EN16931)](./Docs/EN16931.md).
+* [Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants](./docs/Foss.md).
+* [Semantic Data Transformation](./docs/Semantics.md).
+* [Versioning](./docs/Versioning.md). 
+* [Workflow: Using the tooling](./docs/Workflow.md)
+* [Best Practices](./docs/BestPractices.md)
+* [Basics on the European e-Invoice Specification (EN16931)](./docs/EN16931.md).
 
 ## Case Studies
-* [MVP Example](./Docs/Example.md).
+* [MVP Example](./docs/Example.md).
 
 ## Endorsements
 
