@@ -2,9 +2,21 @@
 
 Editor to improve Data Interoperability by bridging Standards using human-centric Semantics.
 
+## Backgorund
+
+The general motivation of our project has been (and is) to provide tooling to confront the complex and difficult problem of data schemea transformation as found in metadata and other related standards.
+
+From our perspectives they are all genres of data silos. They occur naturally over time, mirroring organizational structures. As each island (department, company, industry etc.) collects and stores its own data for its own purposes, it creates their own data silo.
+
+This is an important task for not just memory institutions (such as libraries and archives), businesses (needing to interface with external standards such as electronic invoices, messaging etc.) but also for data warehousing projects where one needs, resp. want, to unify data towards improved data quality and a number of side benefits such as collaboration and cost reduction.
+
+Since these "silos" occur over time and tend to be built on internal cultural or local models they often don't quite map to a bigger picture.
+
+Follwing this the initial focus of IDSS has been to develop a suite of tools to assist cross metadata (semantic) translation for domain experts. In contrast to initiatives such as the "Semantic Web", we don't build up from a projected ontology as there is no single way to model a domain using an ontology. There is no global truth. Different stakeholders in the domain may consider different semantics for metadata or even hold contradictory claims. Often metadata is designed to be intentionally vague and open to the widest range of interpretations and implementations -- see, for example, Dublin Core. The real world is messy and filled with interoperability issues. In standardization, we need to solve them beforehand through interlingua consensus constructed upon formally controlled vocabularies. These demand tools that are not the same as what people tried to develop for the "Semantic Web". we use the data and some tools but don't follow their paradigm down the rabbit hole.
+
 ## Overview
 
-The **purpose** of this project is to enhance the data portability of standards.
+The **purpose** of this tool is to mainly handle editings, maintaintance, validation and versioning.
 
 Although our targets are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands has been to provide validation: syntactical, consistency and completeness checks.
 
