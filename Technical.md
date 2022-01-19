@@ -18,7 +18,7 @@ Follwing this, the initial focus of IDSS has been to develop a suite of tools to
 
 For the goals of the project we've set out to use, deploy and develop tools as appropriate to task.
 
-One of the initial core tools is the semantic-crosswalk-editor. The **purpose** of this tool is to mainly handle editing, maintaintance, validation and versioning.
+One of the initial core tools is the  [Semantic-Crosswalk-Editor (SCE)](./README.md). The **purpose** of this tool is to mainly handle editing, maintaintance, validation and versioning.
 
 Although our targets are generic metadata standards and we don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands has been to provide validation: syntactical, consistency and completeness checks.
 
