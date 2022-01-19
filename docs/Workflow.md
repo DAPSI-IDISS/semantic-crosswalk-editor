@@ -26,3 +26,8 @@ Here we have a super-schema the semantic data model and need to maintain what th
 NOTE: EU e-procurement (EU CEN Standard EN16931) is published as Excel spreadsheets and PDFs (via Word documents) so we need to also create parallel to our
 machine optimized formats also spreadsheets and PDFs. Other use examples may, and will, have other demands. The design is focused on flexibility to enable any
 of a number of workflows and deliverable demands.
+
+# Best Practice
+Data and experience is still to be collected and evaluated. Our current approach is instead of suggesting a "best" practice to try to enable and
+integration of our tools with people's current workflows. While new tools and paradigms will inevitabily change and modify the workflows, it remains to
+be seen what lessions (positive as also negative) ar to be learned.
