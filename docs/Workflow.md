@@ -1,7 +1,9 @@
 # Workflow
 With workflow one must distinguish between top down and bottom up. With "top-down" we have a given schema superset with a number of subsets albeit with different granularity
 and overlaps. This, for example, is the case with the standards built around UN/CEFACT and OASIS UBL. With bottom-up, on the other hand, we have a number of schemas
-and look to create a maintainable super-schema for interlingual translation.
+and look to create a maintainable super-schema for interlingual translation. This is the case with many metadata standards used in memory instutions.
+
+NOTE: The super-schema may or may not be finer grained.
 
 ## Bottom-up
 * Create and maintain ontologies with the onology toolchain: Protoge and WebOWL (for visualization).
