@@ -20,13 +20,13 @@ For the goals of the project we've set out to use, deploy and develop tools as a
 
 One of the initial core tools is the semantic-crosswalk-editor. The **purpose** of this tool is to mainly handle editing, maintaintance, validation and versioning.
 
-Although our targets are generic metadata standards and don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands has been to provide validation: syntactical, consistency and completeness checks.
+Although our targets are generic metadata standards and we don't care about their encoding we start with XML as (syntax) language given its wide use in some of our initial study cases, especially electronic invoices. XML carries, unfortunately, also some baggage, so part of our functionality demands has been to provide validation: syntactical, consistency and completeness checks.
 
-For managing ontologies we current build upon a number of existing open source tools, especially Protégé: See [Re-used Open Source Modules](./docs/Foss.md). We also have a number of novel algorithms currently in development we hope to publish here shortly. See [Matching, ML and beyond](./docs/Semantics.md#matching-ml-and-beyond)
+For managing ontologies we currently build upon a number of existing open source tools, especially Protégé: See [Re-used Open Source Modules](./docs/Foss.md). We also have a number of novel algorithms currently in development we hope to publish here shortly. See [Matching, ML and beyond](./docs/Semantics.md#matching-ml-and-beyond)
 
 Our first objective has been to provide a Minimum Viable Product (MVP) to interested parties.
 
-We have chosen for the initial "real-world" usage scenario of our tools, the task of maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931).
+We have chosen for the initial "real-world" usage scenario of our tools, the task of maintaining the syntax binding of the EU e-procurement (EU CEN Standard EN16931). To this aim we are already seeing some impact.
 
 ## Overviews
 
