@@ -1,5 +1,5 @@
 
-# IDISS: improve Data Interoperability by bridging Standards using human-centric Semantics.
+# IDISS: Improve Data Interoperability by bridging Standards using human-centric Semantics.
 
 ## Background
 
