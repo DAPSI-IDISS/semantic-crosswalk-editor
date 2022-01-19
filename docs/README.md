@@ -2,7 +2,7 @@
 
 Editor to improve Data Interoperability by bridging Standards using human-centric Semantics.
 
-## Backgorund
+## Background
 
 The general motivation of our project has been (and is) to provide tooling to confront the complex and difficult problem of data schemea transformation as found in metadata and other related standards.
 
