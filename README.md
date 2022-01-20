@@ -52,7 +52,7 @@ The editor extension is composed of two parts: a language server extension and a
 Our client-side is predominantly TypeScript while our server (LSP) makes heavy use of Java.
 	
 ### Versioning
-Version control is the only reasonable way to keep track of changes in code, manuscripts, presentations, and data analysis projects. We use Git-- currently by a large margin the most popular(>90% of new projects choose Git) collaborative software development versioning tool. Visual Studio Code as a development basis for editiing tools convientiently provides a Git inferface out-of-the-box. The missing functionality (such as validation) are provided by our extension.
+Version control is the only reasonable way to keep track of changes in code, manuscripts, presentations, and data analysis projects. We use Git-- currently by a large margin the most popular(>90% of new projects choose Git) collaborative software development versioning tool. Visual Studio Code as a development basis for editiing tools convientiently provides a Git inferface out-of-the-box. The missing functionality (such as validation) are provided by our extension. see [Versioning](./docs/Versioning.md)
 	
 ## High-level Concept
 
