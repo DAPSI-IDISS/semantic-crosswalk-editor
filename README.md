@@ -56,6 +56,7 @@ Version control is the only reasonable way to keep track of changes in code, man
 	
 ## High-level Concept
 
+* [Technical Report](Technical.md).
 * [Reused Free Open Source Software (FOSS) Modules - Standing on Shoulders of Giants](docs/Foss.md).
 * [Basics on the European e-Invoice Specification (EN16931)](docs/EN16931.md).
 
