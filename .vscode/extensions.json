@@ -6,6 +6,6 @@
     "eg2.tslint",
     "EditorConfig.EditorConfig",
     //"eamodio.tsl-problem-matcher",
-    "redhat.vscode-xml"
+    //"redhat.vscode-xml"
   ]
 }
