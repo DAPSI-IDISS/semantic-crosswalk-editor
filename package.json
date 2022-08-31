@@ -61,7 +61,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "jsonc-parser": "^3.0.0",
+    "jsonc-parser": "^3.1.0",
     "vscode-languageclient": "^7.0.0"
   },
   "extensionDependencies": [
